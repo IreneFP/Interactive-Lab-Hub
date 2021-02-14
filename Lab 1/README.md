@@ -67,7 +67,7 @@ _Activity:_ What is happening between the actors?
 _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening the fridge). 
 
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
-**Describe your setting, players, activity and goals here.**
+**Setting: Office space / room during quarantine. Players, Activity, and Goal: Just one individual working on school assignments in front of his/her computer for a long time. In order to mantain his/her sanity, the individual needs small and frequent breaks to take his/her eyes out of the computer and move around the space. Quarantine is no fun, but we gotta move that body!**
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 **Include a picture of your storyboard here**
