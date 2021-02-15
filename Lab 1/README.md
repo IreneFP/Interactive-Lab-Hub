@@ -78,9 +78,10 @@ The interactive device can be anything *except* a computer, a tablet computer or
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 **Include a picture of your storyboard here**
 
-
+![Image of Yaktocat](Storyboard1.JPG)
 
 Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
+
 **During our breakout rooms I presented different ideas to the team (Rui, Nicole, Brandt and Hortense). First I talked about a device which would help identify buildings in the Skyline of a city, so for example, when looking at NYC from the Empire States rooftop, Tinker Bell could help identify where the United Nations building is. This idea seemed creative to my peers but without a lot of value. Why would someone use this?. Next, I pitched how Tinker Bell could help people with dietary restrictions (eg. Gluten Free, Lactose Free) to find products that fit their needs in the supermarket. Imagine a Siri but able to give you spatial information as well. "Tinker Bell, show me where the Gluten Free Beer is''. Wouldn't that be cool? I would definitely save so much time! My team liked the idea and we started iterating on it. Hortense suggested that we could also use this product to find friends in crowded spaces, such as concerts. And indeed, I always lose my friends and can't find them within the crowds! One way people try to solve this problem is by carrying a high balloon around so friends can find them quick. But what if everyone brings balloons? Then the problem would not be solved. Tinker Bell could be an imaginative solution for that, but it would only work on dark spaces - during the day its light would hardly be visible. Other brainstorming ideas: Tinker Bell could be a nice drawing assistant. Whenever I am facing a white paper, Tinker Bell randomly projects light on the paper and helps me make my first brush strokes to get inspired.**
 
 ## Part B. Act out the Interaction
