@@ -129,7 +129,7 @@ Only now should you start worrying about what the device should look like. Devel
 Think about the setting of the device: is the environment a place where the device could overheat? Is water a danger? Does it need to have bright colors in an emergency setting?
 
 **Include sketches of what your device might look like here.**
-![Device](Device.JPG)
+![Device](Device2.JPG)
 
 **What concerns or opportunitities are influencing the way you've designed the device to look?**
 **As you can see in the first drawing (top), I envision Tinker Bell as a flying light ball, similar to Harry Potters' Golden Snitch. However, Tinker Bell could also be a terrestrial device which can move in any X and Y direction.**
