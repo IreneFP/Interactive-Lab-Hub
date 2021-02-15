@@ -91,14 +91,14 @@ Try physically acting out the interaction you planned. For now, you can just pre
 
 **Are there things that seemed better on paper than acted out?**
 
-[Video Acting out the Interaction] (https://www.youtube.com/watch?v=Lp932oxmqAU&feature=youtu.be)
+[Video Acting out the Interaction](https://www.youtube.com/watch?v=Lp932oxmqAU&feature=youtu.be)
 
-**It certainly felt weird. I felt like a puppy [following a ball] (https://www.youtube.com/watch?v=sdx2cV8GMQw) or like a cat running around trying to catch its own tail. To be fair, I believe I got inspired after I watched a video from Omer's (ECE'21) [cat enjoying] (https://www.youtube.com/watch?v=9MR8Ym_H-80) himself chasing his tail (for privacy purposes, I am not linking Omer's video but a similar one).**
+**It certainly felt weird. I felt like a puppy [following a ball](https://www.youtube.com/watch?v=sdx2cV8GMQw) or like a cat running around trying to catch its own tail. To be fair, I believe I got inspired after I watched a video from Omer's (ECE'21) [cat enjoying](https://www.youtube.com/watch?v=9MR8Ym_H-80) himself chasing his tail (for privacy purposes, I am not linking Omer's video but a similar one).**
 
 
 **Are there new ideas that occur to you or your collaborators that come up from the acting?**
 
-**Some ideas that popped up: how about we gammify the experience making it a small competition among other people in quarantine as well? Tinker Bell could be linked to an app (maybe a partnership with Strava?) that would count your steps and goals and share these with your community. As a note, a 76 years old man ran a total of 17 km in his own house during lock down. You can see the [video here] (https://elpais.com/videos/2020-04-08/el-hombre-de-76-anos-que-corre-17-kilometros-en-casa-por-la-cuarentena.html)**
+**Some ideas that popped up: how about we gammify the experience making it a small competition among other people in quarantine as well? Tinker Bell could be linked to an app (maybe a partnership with Strava?) that would count your steps and goals and share these with your community. As a note, a 76 years old man ran a total of 17 km in his own house during lock down. You can see the [video here](https://elpais.com/videos/2020-04-08/el-hombre-de-76-anos-que-corre-17-kilometros-en-casa-por-la-cuarentena.html)**
 
 
 ## Part C. Prototype the device
@@ -109,12 +109,13 @@ Code for the "Tinkerbelle" tool, and instructions for setting up the server and 
 
 We invented this tool for this lab! 
 **Give us feedback on Tinkerbelle.**
-
+**Simple, and creative tool to help in the prototyping process. It also provides some constraints which I believe are great to start an ideation process. However, depending on the desired interaction, the screen light may not be strong or directed enough for video purposes. The flash light on the back of the phone could be a good alternative. In any case, having the freedom to use whatever tool that can be controlled remotely to prototype our idea ends up giving us the creative freedom to explore whichever tool we believe will end up serving as a more successful prototype.
 
 ## Part D. Wizard the device
 Take a little time to set up the wizarding set-up that allows for someone to remotely control the device while someone acts with it. Hint: You can use Zoom to record videos, and you can pin someone’s video feed if that is the scene which you want to record. 
 
 **Include your first attempts at recording the set-up video here.**
+**[Video Wizarding the device](https://www.youtube.com/watch?v=Lp932oxmqAU&feature=youtu.be) Note, I ended up using a phone controlled bulb.**
 
 Now, hange the goal within the same setting, and update the interaction with the paper prototype. 
 
@@ -137,6 +138,8 @@ Think about the setting of the device: is the environment a place where the devi
 
 **Please indicate anyone you collaborated with on this Lab.**
 Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+**Lab Partners who gave me feedback: Brandt, Nicole, Rui, and Hortense**
+**C**
 
 # Staging Interaction, Part 2 
 
