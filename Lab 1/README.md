@@ -132,7 +132,7 @@ Think about the setting of the device: is the environment a place where the devi
 ![Device](Device2.JPG)
 
 **What concerns or opportunitities are influencing the way you've designed the device to look?**
-**As you can see in the first drawing (top), I envision Tinker Bell as a flying light ball, similar to Harry Potters' Golden Snitch. However, Tinker Bell could also be a terrestrial device which can move in any X and Y direction.**
+**As you can see in the first drawing (top), I envision Tinker Bell as a flying light ball, similar to Harry Potters' Golden Snitch. However, Tinker Bell could also be a terrestrial device which can move in any X and Y direction. You can see the terrestrial version in the two drawings at the bottom**
 
 ![Golden Snitch](ball.jpg)
 
@@ -140,13 +140,17 @@ Think about the setting of the device: is the environment a place where the devi
 
 **Take a video of your prototyped interaction.**
 
-**[DEVICE Test Prototype](https://www.youtube.com/watch?v=7D1yjXatlpU&feature=youtu.be)
-**[VIDEO WIZARDING THE DEVICE](https://www.youtube.com/watch?v=Lp932oxmqAU&feature=youtu.be)
+**[DEVICE Test Prototype](https://www.youtube.com/watch?v=7D1yjXatlpU&feature=youtu.be)**
+
+**[VIDEO WIZARDING THE DEVICE](https://www.youtube.com/watch?v=Lp932oxmqAU&feature=youtu.be)**
 
 **Please indicate anyone you collaborated with on this Lab.**
-Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design. 
+Be generous in acknowledging their contributions! And also recognizing any other influences (e.g. from YouTube, Github, Twitter) that informed your design.
+
 **Lab Partners who gave me feedback: Brandt, Nicole, Rui, and Hortense**
+
 **Camera and Bulb Controller: Andrew Dawson**
+
 **Source of inspiration for my ideas: Harry Potter, Omer's Cat, [76 years old man ran a total of 17 km in his own house during lock down.](https://elpais.com/videos/2020-04-08/el-hombre-de-76-anos-que-corre-17-kilometros-en-casa-por-la-cuarentena.html)**
 
 # Staging Interaction, Part 2 
