@@ -67,17 +67,21 @@ _Activity:_ What is happening between the actors?
 _Goals:_ What are the goals of each player? (e.g., jumping to a tree, opening the fridge). 
 
 The interactive device can be anything *except* a computer, a tablet computer or a smart phone, but the main way it interacts needs to be using light.
-- **Setting: Office space / room during quarantine. 
-- **Players, 
-- **Activity
-- **Goal: Just one individual working on school assignments in front of his/her computer for a long time. In order to mantain his/her sanity, the individual needs small and frequent breaks to take his/her eyes out of the computer and move around the space. Quarantine is no fun, but we gotta move that body!**
+- **Setting: Office space / room during quarantine.** 
+
+- **Players: Just one individual working on school assignments in front of his/her computer for a long time**
+
+- **Activity: In order to maintain his/her sanity, the individual needs small and frequent breaks to take his/her eyes out of the computer and move around the space. Tinker Bell is a small device that sits next to your computer and lights up when you have earned a little work pause. Then, Thinker Bell will invite you to move around the space (either by flying or with small wheels) by lighting up points on the floor of the room you should walk towards and touch. Everytime these small-goals are reached you will receive healthy super power points.**
+
+- **Goal:  Quarantine is no fun, but we gotta move that body! The goal is to achieve a healthy work routine while in closed indoors for long periods of time and to be conscious of the importance of taking little breaks throughout our day**
 
 Sketch a storyboard of the interactions you are planning. It does not need to be perfect, but must get across the behavior of the interactive device and the other characters in the scene. 
 **Include a picture of your storyboard here**
 
-Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
-**Summarize feedback you got here.**
 
+
+Present your idea to the other people in your breakout room. You can just get feedback from one another or you can work together on the other parts of the lab.
+**During our breakout rooms I presented different ideas to the team (Rui, Nicole, Brandt and Hortense). First I talked about a device which would help identify buildings in the Skyline of a city, so for example, when looking at NYC from the Empire States rooftop, Tinker Bell could help identify where the United Nations building is. This idea seemed creative to my peers but without a lot of value. Why would someone use this?. Next, I pitched how Tinker Bell could help people with dietary restrictions (eg. Gluten Free, Lactose Free) to find products that fit their needs in the supermarket. Imagine a Siri but able to give you spatial information as well. "Tinker Bell, show me where the Gluten Free Beer is''. Wouldn't that be cool? I would definitely save so much time! My team liked the idea and we started iterating on it. Hortense suggested that we could also use this product to find friends in crowded spaces, such as concerts. And indeed, I always lose my friends and can't find them within the crowds! One way people try to solve this problem is by carrying a high balloon around so friends can find them quick. But what if everyone brings balloons? Then the problem would not be solved. Tinker Bell could be an imaginative solution for that, but it would only work on dark spaces - during the day its light would hardly be visible. Other brainstorming ideas: Tinker Bell could be a nice drawing assistant. Whenever I am facing a white paper, Tinker Bell randomly projects light on the paper and helps me make my first brush strokes to get inspired.**
 
 ## Part B. Act out the Interaction
 
