@@ -164,6 +164,18 @@ You will be assigned three partners from another group. Go to their github pages
 
 **Summarize feedback from your partners here.**
 
+Hortense:
+"I love the idea of a snitch-type device! I think it would be great if it were something you could take outside the house and into public spaces, since houses can be small. If it is a rolling instead of flying device, you might consider it bumping into the chair on purpose to catch the user's attention."
+
+Nicole:
+"I like the idea especially I have spent so much time in front of the laptop all day every day. Sometimes, when I work, I forget to take a break so it can be helpful that the device sends out early warning. For instance, I start to move more frequently when I find it hard to focus or I start to yawn more."
+
+Brandt:
+"I actually do something very similar right where every 30 minutes or so I get up and walk around.  I don’t know how necessary it is to actually have the device move with the user.  For me personally I have found that the simple reminder is enough to get up.  One issues of having the device move around is that it runs the risk of causing injury, property damage or its own destruction.  Could it instead just light up and after a predetermined amount of time shut off indicating your break is over?"
+
+Rui:
+"Very cute idea! I liked the idea that Tinker bell could be like a Harry potter snitch that you can run around and chase. I think it would be interesting that when Tinker bell changed color, you would have to do a specific action. For example, when it is blue, you do 3 jumping jacks and when it is red you do three squats to make the activity more ‘active’ especially if the person using it is in a confined space and can’t move too much with Tinker Bell."
+
 ## Make it your own
 
 Do last week’s assignment again, but this time: 
