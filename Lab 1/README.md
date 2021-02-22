@@ -197,6 +197,8 @@ This proposal links my room light, my vaporizer, and my music to my Google Calen
 
 ![Storybboard](Lab1Storyboard.png)
 
+![Storybboard](mockup.png)
+
 **[VIDEO Test Prototype](https://youtu.be/qfD7tY6eR0Y)**
 
 
