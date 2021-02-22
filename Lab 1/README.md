@@ -196,4 +196,7 @@ This proposal links my room light, my vaporizer, and my music to my Google Calen
 **[DEVICE Test Prototype](https://youtu.be/qfD7tY6eR0Y)**
 
 
+Credit:
 
+Lab Partners who gave me feedback: Brandt, Nicole, Rui, and Hortense
+Camera and Bulb Controller: Andrew Dawson
