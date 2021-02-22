@@ -184,3 +184,16 @@ Do last week’s assignment again, but this time:
 3) We will be grading with an emphasis on creativity. 
 
 **Document everything here.**
+
+Title: How to break the monotony of working and playing in a single space during the quarantine.
+
+How can we use light, sound, and smell to transform physical space into completely different environments depending on the activity you need to perform. For everyone’s mental health it is important to separate work from play environments but, during quarantine everything mixes together, creating this only space where all activities are performed and suddenly it is hard to rest without thinking about work or work without thinking about rest.
+
+As part of working towards a better work ethic during quarantine, I am trying to compartmentalize my day into different activities and change little things around me to make me feel like I am in a completely different space.
+
+This proposal links my room light, my vaporizer, and my music to my Google Calendar and automatically sets my desired environment for each task so it is easier for my brain to say “now it is time to work” or “now is time to play”.
+
+**[DEVICE Test Prototype](https://youtu.be/qfD7tY6eR0Y)**
+
+
+
