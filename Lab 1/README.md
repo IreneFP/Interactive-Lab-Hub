@@ -193,10 +193,17 @@ As part of working towards a better work ethic during quarantine, I am trying to
 
 This proposal links my room light, my vaporizer, and my music to my Google Calendar and automatically sets my desired environment for each task so it is easier for my brain to say “now it is time to work” or “now is time to play”.
 
+**Storyboard**
+
+
+
 **[DEVICE Test Prototype](https://youtu.be/qfD7tY6eR0Y)**
+
+
 
 
 Credit:
 
 Lab Partners who gave me feedback: Brandt, Nicole, Rui, and Hortense
+
 Camera and Bulb Controller: Andrew Dawson
