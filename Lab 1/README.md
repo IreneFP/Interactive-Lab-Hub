@@ -213,6 +213,4 @@ Credit:
 Lab Partners who gave me feedback: Brandt, Nicole, Rui, and Hortense
 
 Camera and Bulb Controller: Andrew Dawson
-=======
-**Document everything here. (Particularly we'd like to see the storyboard and video, although photos of the prototype are also great.)**
->>>>>>> cf68e747f32d54e54a46fb6f68c16a26fc91ac32
+
