@@ -108,6 +108,9 @@ You will be using your smartphone as a stand-in for the device you are prototypi
 Code for the "Tinkerbelle" tool, and instructions for setting up the server and your phone are [here](https://github.com/FAR-Lab/tinkerbelle).
 
 We invented this tool for this lab! 
+
+If you run into technical issues with this tool, you can also use a light switch, dimmer, etc. that you can can manually or remotely control.
+
 **Give us feedback on Tinkerbelle.**
 
 **Simple, and creative tool to help in the prototyping process. It also provides some constraints which I believe are great to start an ideation process. However, depending on the desired interaction, the screen light may not be strong or directed enough for video purposes. The flash light on the back of the phone could be a good alternative. In any case, having the freedom to use whatever tool that can be controlled remotely to prototype our idea ends up giving us the creative freedom to explore whichever tool we believe will end up serving as a more successful prototype.**
@@ -183,6 +186,7 @@ Do last week’s assignment again, but this time:
 2) You can use any modality (e.g., vibration, sound) to prototype the behaviors, 
 3) We will be grading with an emphasis on creativity. 
 
+<<<<<<< HEAD
 **Document everything here.**
 
 Title: How to break the monotony of working and playing in a single space during the quarantine.
@@ -209,3 +213,6 @@ Credit:
 Lab Partners who gave me feedback: Brandt, Nicole, Rui, and Hortense
 
 Camera and Bulb Controller: Andrew Dawson
+=======
+**Document everything here. (Particularly we'd like to see the storyboard and video, although photos of the prototype are also great.)**
+>>>>>>> cf68e747f32d54e54a46fb6f68c16a26fc91ac32
