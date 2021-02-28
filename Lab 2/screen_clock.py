@@ -55,7 +55,7 @@ x = 0
 # Alternatively load a TTF font.  Make sure the .ttf font file is in the
 # same directory as the python script!
 # Some other nice fonts to try: http://www.dafont.com/bitmap.php
-font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 18)
+font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 20)
 
 # Turn on the backlight
 backlight = digitalio.DigitalInOut(board.D22)
@@ -67,11 +67,14 @@ while True:
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
 
     #TODO: fill in here. You should be able to look in cli_clock.py and stats.py 
-    time_show = strftime("%m/%d/%Y %H:%M:%S")
-    x = 0 # X position
-    y = 1 # Y position
-    print(font.getsize(time_show)[1])
-    draw.text((x, y), time_show, font=font, fill="#FFFFFF")
+    DATE = strftime("%m/%d/%Y")
+    TIME = strftime("%H:%M:%S")
+    
+    y = top # Y position
+    draw.text((x, y), DATE, font=font, fill="#FFFFFF")
+    y = font.getsize(DATE)[1]
+    draw.text((x, y), TIME, font=font, fill="#0000FF")
+    
     # Display image.
     disp.image(image, rotation)
     time.sleep(0.5)
