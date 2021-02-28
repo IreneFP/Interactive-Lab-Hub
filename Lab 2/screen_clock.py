@@ -69,8 +69,8 @@ while True:
     #TODO: fill in here. You should be able to look in cli_clock.py and stats.py 
     time_show = strftime("%m/%d/%Y %H:%M:%S")
     x = 0 # X position
-    y = top # Y position
-    draw.text((0, top), time_show, font=font, fill="#FFFFFF")
+    y = 1 # Y position
+    draw.text((x, y), time_show, font=font, fill="#FFFFFF")
     # Display image.
     disp.image(image, rotation)
-    time.sleep(1)
+    time.sleep(0.5)
