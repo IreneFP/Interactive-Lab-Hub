@@ -24,7 +24,8 @@ import adafruit_rgb_display.ssd1331 as ssd1331  # pylint: disable=unused-import
 # Configuration for CS and DC pins (these are PiTFT defaults):
 cs_pin = digitalio.DigitalInOut(board.CE0)
 dc_pin = digitalio.DigitalInOut(board.D25)
-reset_pin = digitalio.DigitalInOut(board.D24)
+# reset_pin = digitalio.DigitalInOut(board.D24)
+reset_pin = None
 
 # Config for display baudrate (default max is 24mhz):
 BAUDRATE = 24000000
@@ -76,6 +77,7 @@ disp.image(image)
 
 image1 = Image.open("red.jpg")
 image2 = Image.open("irene.JPG")
+
 backlight = digitalio.DigitalInOut(board.D22)
 backlight.switch_to_output()
 backlight.value = True
@@ -110,14 +112,15 @@ IreneFace = image_rescaling(image2)
 # Display image.
 # disp.image(CTlogo)
 
-if buttonA.value and buttonB.value:
-    backlight.value = False  # turn off backlight
-else:
-    backlight.value = True  # turn on backlight
-if buttonB.value and not buttonA.value:  # just button A pressed
-    disp.image(CTlogo) # set the screen to Cornell Tech Image
-if buttonA.value and not buttonB.value:  # just button B pressed
-    disp.image(IreneFace)  # set the screen to Irene's Image
-if not buttonA.value and not buttonB.value:  # none pressed
-    display.fill(color565(0, 255, 0))  # green
+while True:
+    if buttonA.value and buttonB.value:
+        backlight.value = False  # turn off backlight
+    else:
+        backlight.value = True  # turn on backlight
+    if buttonB.value and not buttonA.value:  # just button A pressed
+        disp.image(CTlogo) # set the screen to Cornell Tech Image
+    if buttonA.value and not buttonB.value:  # just button B pressed
+        disp.image(IreneFace)  # set the screen to Irene's Image
+    if not buttonA.value and not buttonB.value:  # none pressed
+        display.fill(color565(0, 255, 0))  # green
 
