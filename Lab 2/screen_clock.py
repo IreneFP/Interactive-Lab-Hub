@@ -70,6 +70,7 @@ while True:
     time_show = strftime("%m/%d/%Y %H:%M:%S")
     x = 0 # X position
     y = 1 # Y position
+    print(font.getsize(time_show)[1])
     draw.text((x, y), time_show, font=font, fill="#FFFFFF")
     # Display image.
     disp.image(image, rotation)
