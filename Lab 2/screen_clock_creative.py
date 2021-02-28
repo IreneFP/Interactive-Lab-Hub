@@ -71,13 +71,14 @@ while seconds < 60:
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
 
     #TODO: fill in here. You should be able to look in cli_clock.py and stats.py 
-    x0 = 0
+    x0 = 53
     y0 = 0
-    x1 = 240 
-    y1 = 135
+    x1 = 187 
+    y1 = 134
 
     xy = [x0, y0, x1, y1]
     draw.arc(xy, start, end, fill= "#FFFFFF")
+    draw.chord(xy, start, end, fill= "#FFFFFF")
     
     # DATE = strftime("%m/%d/%Y")
     # TIME = strftime("%H:%M:%S")
