@@ -94,7 +94,7 @@ while seconds < 60:
     now = datetime.now()
     seconds = now.second
     white_hair_now = white_hair(seconds)
-    draw.text((x_center_text, y_center_text), white_hair_now, font=font_big, fill="#000000", stroke_fill="#FFFFFF", stroke_width=2)
+    draw.text((x_center_text, y_center_text), str(white_hair_now), font=font_big, fill="#000000", stroke_fill="#FFFFFF", stroke_width=2)
     draw.text((x_center_text, y_center_text+25), "White Hair", font=font_small, fill="#000000", stroke_fill="#FFFFFF", stroke_width=2)
     
     TIME = strftime("%S")
