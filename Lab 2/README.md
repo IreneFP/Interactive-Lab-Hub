@@ -151,12 +151,21 @@ In `screen_clock.py`. Show the time by filling in the while loop. You can use th
 ## Make a short video of your modified barebones PiClock
 
 <p float="left">
-  [<img src="partE/partE-v1.PNG" width="200">](https://youtu.be/EMdXMbvFAaU)
-  [<img src="partE/partE-v2.PNG" width="200">](https://youtu.be/2du6wYEes10)
+  <a href="https://youtu.be/EMdXMbvFAaU">
+    <img src="partE/partE-v1.PNG" width="200" />
+  </a>
+  <a href="https://youtu.be/2du6wYEes10">
+    <img src="partE/partE-v2.PNG" width="200"/>
+  </a>
 </p>
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
 
+<p>
+  <a href="http://commonmark.org" title="Redirect to homepage">
+    <img src="http://commonmark.org/help/images/favicon.png" alt="homepage" />
+  </a>
+</p>
 
