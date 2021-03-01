@@ -148,7 +148,7 @@ In `screen_clock.py`. Show the time by filling in the while loop. You can use th
 **[Code - Part E](screen_clock_creative.py)**
 
 ## Part F. ✅
-## CLICK 🖱 on the images to watch the 🎞
+## CLICK 🖱 on the images ⬇️ to watch the 🎞
 
 <p float="left">
   <a href="https://youtu.be/EMdXMbvFAaU">
@@ -162,7 +162,15 @@ In `screen_clock.py`. Show the time by filling in the while loop. You can use th
 ## Part G. ✅
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
-Ideas:
+## CLICK 🖱 on the images ⬇️ to watch the 🎞
+
+<p float="left">
+  <a href="https://www.youtube.com/watch?v=CPGgmZUfePE&feature=youtu.be">
+    <img src="Final/piclock3.JPG" width="200"/>
+  </a>
+</p>
+
+Other Ideas:
 
 - number of white hair
 - number of socks being used in a life time
