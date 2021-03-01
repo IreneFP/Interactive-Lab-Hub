@@ -96,7 +96,7 @@ while seconds < 60:
     white_hair_now = white_hair(years)
 
     draw.text((x_center_text, y_center_text), str(white_hair_now), font=font_big, fill="#000000", stroke_fill="#FFFFFF", stroke_width=2)
-    draw.text((x_center_text - 25, y_center_text + 25), "White Hair", font=font_small, fill="#000000", stroke_fill="#FFFFFF", stroke_width=0.5)
+    draw.text((x_center_text - 25, y_center_text + 25), "White Hair", font=font_small, fill="#000000", stroke_fill="#FFFFFF", stroke_width=1)
     
     TIME = strftime("%S")
     draw.text((0, top), TIME + " Years Old", font=font_small, fill="#FFFFFF")
