@@ -82,7 +82,7 @@ while seconds < 60:
     draw.arc(xy, start, end, fill= color)
     draw.pieslice(xy, start, end, fill= color)
     TIME = strftime("%S")
-    draw.text((width/2, height/2), TIME, font=font, fill="#FFFFFF", stroke_fill="#000000")
+    draw.text((width/2, height/2), TIME, font=font, fill="#FFFFFF", stroke_fill="#000000", stroke_width=2)
     
     # DATE = strftime("%m/%d/%Y")
     # TIME = strftime("%H:%M:%S")
