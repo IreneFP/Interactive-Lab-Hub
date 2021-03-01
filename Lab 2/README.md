@@ -164,9 +164,9 @@ In `screen_clock.py`. Show the time by filling in the while loop. You can use th
 
 Ideas:
 
-- # white hair
-- # socks being used in a life time
-- # people reading the NYT (there are supposed to be more ppl reading the newspaper in the morning that at night) -- is this an old fashion idea?
-- # number of friends on LinkedIn
-- # data usage during the day
-- # Twitts per second world wide 
+- number of white hair
+- number of socks being used in a life time
+- number of people reading the NYT (there are supposed to be more ppl reading the newspaper in the morning that at night) -- is this an old fashion idea?
+- number of friends on LinkedIn
+- data usage during the day
+- number of Twitts per second world wide 
