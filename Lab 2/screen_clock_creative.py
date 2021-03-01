@@ -56,7 +56,8 @@ x = 0
 # Alternatively load a TTF font.  Make sure the .ttf font file is in the
 # same directory as the python script!
 # Some other nice fonts to try: http://www.dafont.com/bitmap.php
-font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 40)
+font_size = 40
+font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", font_size)
 # font = ImageFont.truetype("/usr/share/fonts/truetype/Roboto-Black.ttf", 40)
 
 # Turn on the backlight
@@ -77,19 +78,14 @@ while seconds < 60:
     y0 = 0
     x1 = 187 
     y1 = 134
+    x_center_text = width/2 - font_size/2
+    y_center_text = height/2 - font_size/2
 
     xy = [x0, y0, x1, y1]
     draw.arc(xy, start, end, fill=color)
     draw.pieslice(xy, start, end, fill=color)
     TIME = strftime("%S")
-    draw.text((width/2, height/2), TIME, font=font, fill="#808080", stroke_fill="#FFFFFF", stroke_width=2)
-    
-    # DATE = strftime("%m/%d/%Y")
-    # TIME = strftime("%H:%M:%S")
-    # y = top # Y position
-    # draw.text((x, y), DATE, font=font, fill="#FFFFFF")
-    # y = font.getsize(DATE)[1]
-    # draw.text((x, y), TIME, font=font, fill="#0000FF")
+    draw.text((x_center_text, y_center_text), TIME, font=font, fill="#000000", stroke_fill="#FFFFFF", stroke_width=2)
     
     # Display image.
     disp.image(image, rotation)
@@ -97,6 +93,10 @@ while seconds < 60:
     end += 6
     if seconds == 59:
         seconds = 0
-        color = "#"+''.join([random.choice('0123456789ABCDEF') for j in range(6)])
+        if color == "#FFFFFF":
+            color = "#000000"
+        else:
+            color = "#FFFFFF"
+        # color = "#"+''.join([random.choice('0123456789ABCDEF') for j in range(6)])
     time.sleep(1)
 
