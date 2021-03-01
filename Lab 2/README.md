@@ -133,8 +133,10 @@ In `screen_clock.py`. Show the time by filling in the while loop. You can use th
 
 **[Code](screen_clock.py)**
 
-<img src="PartD/partD-v1.gif" width="200">
-<img src="PartD/partD-v2.gif" width="200">
+<p float="left">
+  <img src="PartD/partD-v1.gif" width="200">
+  <img src="PartD/partD-v2.gif" width="200">
+</p>
 
 
 ## Part E.
