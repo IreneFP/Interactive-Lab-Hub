@@ -73,7 +73,7 @@ end = 6
 color = "#FFFFFF"
 
 def white_hair(sec):
-    return (1.7**(sec/100)) - 1
+    return sec ** 1.5
 
 while seconds < 60:
     # Draw a black filled box to clear the image.
@@ -88,17 +88,18 @@ while seconds < 60:
     y_center_text = height/2 - 20/2
 
     xy = [x0, y0, x1, y1]
+
     draw.arc(xy, start, end, fill=color)
     draw.pieslice(xy, start, end, fill=color)
     
-    now = datetime.now()
-    seconds = now.second
-    white_hair_now = white_hair(seconds)
+    years = datetime.now().second
+    white_hair_now = white_hair(years)
+
     draw.text((x_center_text, y_center_text), str(white_hair_now), font=font_big, fill="#000000", stroke_fill="#FFFFFF", stroke_width=2)
-    draw.text((x_center_text, y_center_text+25), "White Hair", font=font_small, fill="#000000", stroke_fill="#FFFFFF", stroke_width=2)
+    draw.text((x_center_text - 25, y_center_text + 25), "White Hair", font=font_small, fill="#000000", stroke_fill="#FFFFFF", stroke_width=0.5)
     
     TIME = strftime("%S")
-    draw.text((0, top), TIME, font=font_small, fill="#FFFFFF", stroke_width=2)
+    draw.text((0, top), TIME + " Years Old", font=font_small, fill="#FFFFFF")
     
     # Display image.
     disp.image(image, rotation)
