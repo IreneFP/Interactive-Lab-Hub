@@ -78,7 +78,7 @@ while seconds < 60:
 
     xy = [x0, y0, x1, y1]
     draw.arc(xy, start, end, fill= "#FFFFFF")
-    draw.chord(xy, center, end, fill= "#FFFFFF")
+    draw.pieslice(xy, start, end, fill= "#FFFFFF")
     
     # DATE = strftime("%m/%d/%Y")
     # TIME = strftime("%H:%M:%S")
