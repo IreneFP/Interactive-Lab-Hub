@@ -124,7 +124,7 @@ You can look in `image.py` for an example of how to display an image on the scre
 
 **[Code](image_mod.py)**
 
-<img src="partC.gif" width="200">
+<img src="PartC/partC.gif" width="200">
 
 ## Part D. 
 ## Set up the Display Clock Demo
@@ -132,6 +132,9 @@ You can look in `image.py` for an example of how to display an image on the scre
 In `screen_clock.py`. Show the time by filling in the while loop. You can use the code in `cli_clock.py` and `stats.py` to figure this out.
 
 **[Code](screen_clock.py)**
+
+<img src="PartC/partD_v1.gif" width="200">
+<img src="PartC/partD_v2.gif" width="200">
 
 
 ## Part E.
