@@ -82,7 +82,7 @@ while seconds < 60:
     draw.arc(xy, start, end, fill= color)
     draw.pieslice(xy, start, end, fill= color)
     TIME = strftime("%S")
-    draw.text((height/2, width/2), TIME, font=font, fill="#FF00FF")
+    draw.text((width/2, height/2), TIME, font=font, fill="#FFFFFF", stroke_fill="#000000")
     
     # DATE = strftime("%m/%d/%Y")
     # TIME = strftime("%H:%M:%S")
@@ -95,7 +95,8 @@ while seconds < 60:
     disp.image(image, rotation)
     seconds += 1
     end += 6
+    if seconds == 59:
+        seconds = 0
+        color = ["#"+''.join([random.choice('0123456789ABCDEF') for j in range(6)]) for i in range(10)]
     time.sleep(1)
 
-seconds = 0
-color = ["#"+''.join([random.choice('0123456789ABCDEF') for j in range(6)]) for i in range(10)]
