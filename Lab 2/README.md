@@ -151,8 +151,8 @@ In `screen_clock.py`. Show the time by filling in the while loop. You can use th
 ## Make a short video of your modified barebones PiClock
 
 <p float="left">
-  [<img src="PartD/partE-v1.PNG" width="200">](https://youtu.be/EMdXMbvFAaU)
-  [<img src="PartD/partE-v2.PNG" width="200">](https://youtu.be/2du6wYEes10)
+  [<img src="partE/partE-v1.PNG" width="200">](https://youtu.be/EMdXMbvFAaU)
+  [<img src="partE/partE-v2.PNG" width="200">](https://youtu.be/2du6wYEes10)
 </p>
 
 ## Part G. 
