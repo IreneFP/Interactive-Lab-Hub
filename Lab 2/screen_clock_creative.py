@@ -5,6 +5,7 @@ import board
 from PIL import Image, ImageDraw, ImageFont
 import adafruit_rgb_display.st7789 as st7789
 from time import strftime, sleep
+import random
 
 
 # Configuration for CS and DC pins (these are FeatherWing defaults on M0/M4):
@@ -66,6 +67,7 @@ backlight.value = True
 seconds = 0
 start = 0
 end = 6
+color = "#FFFFFF"
 while seconds < 60:
     # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
@@ -77,8 +79,10 @@ while seconds < 60:
     y1 = 134
 
     xy = [x0, y0, x1, y1]
-    draw.arc(xy, start, end, fill= "#FFFFFF")
-    draw.pieslice(xy, start, end, fill= "#FFFFFF")
+    draw.arc(xy, start, end, fill= color)
+    draw.pieslice(xy, start, end, fill= color)
+    TIME = strftime("%S")
+    draw.text((height/2, width/2), TIME, font=font, fill="#FF00FF")
     
     # DATE = strftime("%m/%d/%Y")
     # TIME = strftime("%H:%M:%S")
@@ -92,3 +96,6 @@ while seconds < 60:
     seconds += 1
     end += 6
     time.sleep(1)
+
+seconds = 0
+color = ["#"+''.join([random.choice('0123456789ABCDEF') for j in range(6)]) for i in range(10)]
