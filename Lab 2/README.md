@@ -1,6 +1,6 @@
 # The Clock of Pi
 
-**Brandt, Nicole, Rui, Hortense, and Antionio. Also huge thanks to Ilan and David - the TAs of this class - for helping with the Raspberry Pi setup**
+**Lab collaborators**: Brandt, Nicole, Rui, Hortense, and Antionio. Also huge thanks to Ilan and David - the TAs of this class - for helping with the Raspberry Pi setup**
 
 ## Prep
 
@@ -122,7 +122,9 @@ You can look in `stats.py` for how to display text on the screen
 
 You can look in `image.py` for an example of how to display an image on the screen. Can you make it switch to another image when you push one of the buttons?
 
+**[Code](image_mod.py)** --> 
 
+![](partC.gif)
 
 ## Part D. 
 ## Set up the Display Clock Demo
