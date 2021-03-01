@@ -124,8 +124,7 @@ You can look in `image.py` for an example of how to display an image on the scre
 
 **[Code](image_mod.py)**
 
-![](partC.gif | width=100)
-<img src="partC.gif" width="100">
+<img src="partC.gif" width="200">
 
 ## Part D. 
 ## Set up the Display Clock Demo
