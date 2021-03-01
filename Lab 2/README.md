@@ -145,12 +145,15 @@ In `screen_clock.py`. Show the time by filling in the while loop. You can use th
 ## Part E.
 ## Modify the barebones clock to make it your own
 
-**A copy of your code should be in your Lab 2 Github repo.**
+**[Code - Part E](screen_clock_creative.py)**
 
 ## Part F. 
 ## Make a short video of your modified barebones PiClock
 
-**Take a video of your PiClock.**
+<p float="left">
+  <img src="PartD/partD-v1.gif" width="200">
+  <img src="PartD/partD-v2.gif" width="200">
+</p>
 
 ## Part G. 
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
