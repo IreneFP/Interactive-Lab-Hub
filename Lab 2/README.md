@@ -2,13 +2,13 @@
 
 **Lab collaborators**: Brandt, Nicole, Rui, Hortense, and Antionio. Also huge thanks to Ilan and David - the TAs of this class - for helping with the Raspberry Pi setup**
 
-## Prep
+## Prep ✅
 
 [Lab prep](prep.md) 
 
-### Get your kit
+### Get your kit ✅
 
-### Set up your Lab 2
+### Set up your Lab 2 ✅
 
 1. [Pull changes from the Interactive Lab Hub](https://github.com/FAR-Lab/Developing-and-Designing-Interactive-Devices/blob/2021Spring/readings/Submitting%20Labs.md#to-pull-lab-updates)
 
@@ -45,7 +45,7 @@ G) [Sketch and brainstorm further interactions and features you would like for y
 
 ## The Report
 
-## Part A. 
+## Part A. ✅
 ## Connect to your Pi
 Just like you did in the lab prep, ssh on to your pi. Once there create a python environment.
 
@@ -57,7 +57,7 @@ pi@ixe00:~ $ source circuitpython/bin/activate
 
 ```
 
-## Part B. 
+## Part B. ✅
 ### Try out the Command Line Clock
 Clone the repo for this assignment
 
@@ -78,7 +78,7 @@ you can press `ctrl-c` to exit.
 If you're unfamiliar with the code in `cli_clock.py` have a look at [this refresher](https://hackernoon.com/intermediate-python-refresher-tutorial-project-ideas-and-tips-i28s320p). 
 
 
-## Part C. 
+## Part C. ✅
 ## Set up your RGB Display
 We will introduce you to the [Adafruit MiniPiTFT](https://www.adafruit.com/product/4393) and Python on the Pi.
 
@@ -129,7 +129,7 @@ You can look in `image.py` for an example of how to display an image on the scre
 <img src="PartC/irene_partC.PNG" width="200">
 </p>
 
-## Part D. 
+## Part D. ✅
 ## Set up the Display Clock Demo
 
 In `screen_clock.py`. Show the time by filling in the while loop. You can use the code in `cli_clock.py` and `stats.py` to figure this out.
@@ -142,13 +142,13 @@ In `screen_clock.py`. Show the time by filling in the while loop. You can use th
 </p>
 
 
-## Part E.
+## Part E. ✅
 ## Modify the barebones clock to make it your own
 
 **[Code - Part E](screen_clock_creative.py)**
 
-## Part F. 
-## Make a short video of your modified barebones PiClock
+## Part F. ✅
+## CLICK 🖱 on the images to watch the 🎞
 
 <p float="left">
   <a href="https://youtu.be/EMdXMbvFAaU">
@@ -159,13 +159,14 @@ In `screen_clock.py`. Show the time by filling in the while loop. You can use th
   </a>
 </p>
 
-## Part G. 
+## Part G. ✅
 ## Sketch and brainstorm further interactions and features you would like for your clock for Part 2.
 
+Ideas:
 
-<p>
-  <a href="http://commonmark.org" title="Redirect to homepage">
-    <img src="http://commonmark.org/help/images/favicon.png" alt="homepage" />
-  </a>
-</p>
-
+- # white hair
+- # socks being used in a life time
+- # people reading the NYT (there are supposed to be more ppl reading the newspaper in the morning that at night) -- is this an old fashion idea?
+- # number of friends on LinkedIn
+- # data usage during the day
+- # Twitts per second world wide 
