@@ -166,9 +166,9 @@ In `screen_clock.py`. Show the time by filling in the while loop. You can use th
 
 <p float="left">
   <a href="https://www.youtube.com/watch?v=CPGgmZUfePE&feature=youtu.be">
-    <img src="Final/piclock3.JPG" width="200"/>
+    <img src="Final/piclock3.JPG" hight="300"/>
   </a>
-  <img src="Final/gray.jpg" width="200">
+  <img src="Final/gray.jpg" hight="300">
 </p>
 
 Other Ideas:
