@@ -79,10 +79,10 @@ while seconds < 60:
     y1 = 134
 
     xy = [x0, y0, x1, y1]
-    draw.arc(xy, start, end, fill= color)
-    draw.pieslice(xy, start, end, fill= color)
+    draw.arc(xy, start, end, fill=color)
+    draw.pieslice(xy, start, end, fill=color)
     TIME = strftime("%S")
-    draw.text((width/2, height/2), TIME, font=font, fill="#FFFFFF", stroke_fill="#000000", stroke_width=2)
+    draw.text((width/2, height/2), TIME, font=font, fill="#808080", stroke_fill="#FFFFFF", stroke_width=2)
     
     # DATE = strftime("%m/%d/%Y")
     # TIME = strftime("%H:%M:%S")
@@ -97,6 +97,6 @@ while seconds < 60:
     end += 6
     if seconds == 59:
         seconds = 0
-        color = ["#"+''.join([random.choice('0123456789ABCDEF') for j in range(6)]) for i in range(10)]
+        color = "#"+''.join([random.choice('0123456789ABCDEF') for j in range(6)])
     time.sleep(1)
 
