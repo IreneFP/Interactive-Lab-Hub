@@ -84,8 +84,8 @@ while seconds < 60:
     y0 = 0
     x1 = 187 
     y1 = 134
-    x_center_text = width/2 - font_size/2
-    y_center_text = height/2 - font_size/2
+    x_center_text = width/2 - 20/2
+    y_center_text = height/2 - 20/2
 
     xy = [x0, y0, x1, y1]
     draw.arc(xy, start, end, fill=color)
