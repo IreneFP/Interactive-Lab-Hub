@@ -5,6 +5,7 @@ import board
 from PIL import Image, ImageDraw, ImageFont
 import adafruit_rgb_display.st7789 as st7789
 from time import strftime, sleep
+from datetime import datetime
 import random
 
 
@@ -56,8 +57,9 @@ x = 0
 # Alternatively load a TTF font.  Make sure the .ttf font file is in the
 # same directory as the python script!
 # Some other nice fonts to try: http://www.dafont.com/bitmap.php
-font_size = 40
-font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", font_size)
+# font_size = 40
+font_big = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 20)
+font_small = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 12)
 # font = ImageFont.truetype("/usr/share/fonts/truetype/Roboto-Black.ttf", 40)
 
 # Turn on the backlight
@@ -69,6 +71,10 @@ seconds = 0
 start = 0
 end = 6
 color = "#FFFFFF"
+
+def white_hair(sec):
+    return (1.7**(sec/100)) - 1
+
 while seconds < 60:
     # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
@@ -84,8 +90,14 @@ while seconds < 60:
     xy = [x0, y0, x1, y1]
     draw.arc(xy, start, end, fill=color)
     draw.pieslice(xy, start, end, fill=color)
+    
+    seconds = datetime.now()
+    white_hair_now = white_hair(seconds)
+    draw.text((x_center_text, y_center_text), white_hair_now, font=font_big, fill="#000000", stroke_fill="#FFFFFF", stroke_width=2)
+    draw.text((x_center_text, y_center_text+25), "White Hair", font=font_small, fill="#000000", stroke_fill="#FFFFFF", stroke_width=2)
+    
     TIME = strftime("%S")
-    draw.text((x_center_text, y_center_text), TIME, font=font, fill="#000000", stroke_fill="#FFFFFF", stroke_width=2)
+    draw.text((0, top), TIME, font=font_small, fill="#FFFFFF", stroke_width=2)
     
     # Display image.
     disp.image(image, rotation)
