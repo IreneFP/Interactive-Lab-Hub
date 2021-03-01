@@ -166,13 +166,14 @@ In `screen_clock.py`. Show the time by filling in the while loop. You can use th
 
 <p float="left">
   <a href="https://www.youtube.com/watch?v=CPGgmZUfePE&feature=youtu.be">
-    <img src="Final/piclock3.JPG" hight="100"/>
+    <img src="Final/piclock3.JPG" width="300"/>
   </a>
-  <img src="Final/gray.jpg" hight="100">
+  <img src="Final/gray.jpg" width="300">
 </p>
 Image Source: https://www.medicalnewstoday.com/articles/320288
 
-Other Ideas:
+
+**Other Ideas:**
 
 - number of white hair
 - number of socks being used in a life time
