@@ -100,7 +100,7 @@ while seconds < 60:
     draw.text((x_center_text - 25, y_center_text + 25), "White Hair", font=font_small, fill="#000000", stroke_fill="#FFFFFF", stroke_width=1)
     
     # TIME = strftime("%S")
-    draw.text((0, top), seconds + " Years Old", font=font_small, fill="#FFFFFF")
+    draw.text((0, top), str(seconds) + " Years Old", font=font_small, fill="#FFFFFF")
     
     # Display image.
     disp.image(image, rotation)
