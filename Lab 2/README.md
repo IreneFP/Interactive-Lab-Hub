@@ -122,16 +122,19 @@ You can look in `stats.py` for how to display text on the screen
 
 You can look in `image.py` for an example of how to display an image on the screen. Can you make it switch to another image when you push one of the buttons?
 
-**[Code](image_mod.py)**
+**[Code - Part C](image_mod.py)**
 
+<p float="left">
 <img src="PartC/partC.gif" width="200">
+<img src="PartC/irene_partC.PNG" width="200">
+</p>
 
 ## Part D. 
 ## Set up the Display Clock Demo
 
 In `screen_clock.py`. Show the time by filling in the while loop. You can use the code in `cli_clock.py` and `stats.py` to figure this out.
 
-**[Code](screen_clock.py)**
+**[Code - Part D](screen_clock.py)**
 
 <p float="left">
   <img src="PartD/partD-v1.gif" width="200">
