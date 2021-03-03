@@ -58,7 +58,7 @@ x = 0
 # same directory as the python script!
 # Some other nice fonts to try: http://www.dafont.com/bitmap.php
 # font_size = 40
-font_big = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 20)
+font_big = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 40)
 font_small = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 12)
 # font = ImageFont.truetype("/usr/share/fonts/truetype/Roboto-Black.ttf", 40)
 
@@ -75,6 +75,11 @@ color = "#FFFFFF"
 # def white_hair(sec):
 #     return sec ** 1.7
 
+idx = [x for x in range(0, height)]
+idx = idx
+
+draw_line = []
+
 while seconds < 60:
     # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
@@ -87,8 +92,15 @@ while seconds < 60:
     x_center_text = width/2 - 20/2
     y_center_text = height/2 - 20/2
 
-    draw.line([(0, 0), (0, 135)], fill="#FFFFFF", width=2)
-    draw.line([(100, 0), (100, 135)], fill="#FFFFFF", width=2)
+    for i in draw_line:
+        draw.line([(i, 0), (i, 135)], fill="#FFFFFF", width=1)
+
+    rand = random.choice(idx)
+    idx.remove(rand)
+    draw_line.append(draw_line)
+
+    # draw.line([(0, 0), (0, 135)], fill="#FFFFFF", width=2)
+    # draw.line([(100, 0), (100, 135)], fill="#FFFFFF", width=2)
 
     # xy = [x0, y0, x1, y1]
 
@@ -99,7 +111,7 @@ while seconds < 60:
     # white_hair_now = white_hair(seconds)
     # white_hair_now = round(white_hair_now, 2)
     TIME = strftime("%S")
-    draw.text((x_center_text - 5, y_center_text), TIME, font=font_big, fill="#000000", stroke_fill="#FFFFFF", stroke_width=2)
+    draw.text((x_center_text - 5, y_center_text), str(seconds), font=font_big, fill="#000000", stroke_fill="#FFFFFF", stroke_width=2)
     # draw.text((x_center_text - 25, y_center_text + 25), "White Hair", font=font_small, fill="#000000", stroke_fill="#FFFFFF", stroke_width=1)
     
     
