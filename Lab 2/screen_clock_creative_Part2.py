@@ -87,7 +87,7 @@ while seconds < 60:
     x_center_text = width/2 - 20/2
     y_center_text = height/2 - 20/2
 
-    draw.line([(0, 0), (135, 0)], fill="#000000", width=2)
+    draw.line([(0, 0), (135, 0)], fill="#FFFFFF", width=2)
 
     # xy = [x0, y0, x1, y1]
 
