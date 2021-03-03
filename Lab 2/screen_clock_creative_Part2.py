@@ -78,7 +78,7 @@ color = "#FFFFFF"
 idx = [x for x in range(0, height)]
 idx = idx
 
-draw_line = []
+draw_line = [0]
 
 while seconds < 60:
     # Draw a black filled box to clear the image.
@@ -119,7 +119,7 @@ while seconds < 60:
     
     # Display image.
     disp.image(image, rotation)
-    # seconds += 1
+    seconds += 1
     # end += 6
     # if seconds == 59:
     #     seconds = 0
