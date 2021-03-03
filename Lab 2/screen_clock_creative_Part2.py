@@ -95,11 +95,11 @@ while seconds < 60:
     # draw.arc(xy, start, end, fill=color)
     # draw.pieslice(xy, start, end, fill=color)
     
-    # # years = datetime.now().second
+    years = datetime.now().second
     # white_hair_now = white_hair(seconds)
     # white_hair_now = round(white_hair_now, 2)
 
-    # draw.text((x_center_text - 5, y_center_text), str(white_hair_now), font=font_big, fill="#000000", stroke_fill="#FFFFFF", stroke_width=2)
+    draw.text((x_center_text - 5, y_center_text), years, font=font_big, fill="#000000", stroke_fill="#FFFFFF", stroke_width=2)
     # draw.text((x_center_text - 25, y_center_text + 25), "White Hair", font=font_small, fill="#000000", stroke_fill="#FFFFFF", stroke_width=1)
     
     # # TIME = strftime("%S")
