@@ -67,7 +67,7 @@ backlight = digitalio.DigitalInOut(board.D22)
 backlight.switch_to_output()
 backlight.value = True
 
-seconds = 0
+seconds = 1
 start = 0
 end = 6
 color = "#FFFFFF"
@@ -80,7 +80,7 @@ idx = idx
 
 draw_line = [0]
 
-while seconds < 60:
+while seconds < 61:
     # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
 
@@ -92,14 +92,25 @@ while seconds < 60:
     x_center_text = width/2 - 20/2
     y_center_text = height/2 - 20/2
 
-    for _ in range(int(seconds**1.32)):
+    if seconds in range(0,20):
+        loop = 1
+    elif seconds in range(20,30):
+        loop = 2
+    elif seconds in range(30,40):
+        loop = 5
+    elif seconds in range(40,50):
+        loop = 7
+    else:
+        loop = 9
+
+    for _ in range(loop):
         for i in draw_line:
             draw.line([(i, 0), (i, 135)], fill="#FFFFFF", width=1)
 
         rand = random.choice(idx)
         idx.remove(rand)
         draw_line.append(rand)
-        print(rand)
+
 
     # draw.line([(240, 0), (240, 135)], fill="#FFFFFF", width=2)
     # draw.line([(239, 0), (239, 135)], fill="#FFFFFF", width=2)
