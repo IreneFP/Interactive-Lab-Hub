@@ -92,14 +92,14 @@ while seconds < 60:
     x_center_text = width/2 - 20/2
     y_center_text = height/2 - 20/2
 
-    for i in draw_line:
-        draw.line([(i, 0), (i, 135)], fill="#FFFFFF", width=1)
+    # for i in draw_line:
+    #     draw.line([(i, 0), (i, 135)], fill="#FFFFFF", width=1)
 
-    rand = random.choice(idx)
-    idx.remove(rand)
-    draw_line.append(rand)
+    # rand = random.choice(idx)
+    # idx.remove(rand)
+    # draw_line.append(rand)
 
-    # draw.line([(0, 0), (0, 135)], fill="#FFFFFF", width=2)
+    draw.line([(240, 0), (240, 135)], fill="#FFFFFF", width=2)
     # draw.line([(100, 0), (100, 135)], fill="#FFFFFF", width=2)
 
     # xy = [x0, y0, x1, y1]
