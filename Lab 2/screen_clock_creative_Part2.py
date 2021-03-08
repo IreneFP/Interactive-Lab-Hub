@@ -97,7 +97,7 @@ while seconds < 60:
 
     rand = random.choice(idx)
     idx.remove(rand)
-    draw_line.append(draw_line)
+    draw_line.append(rand)
 
     # draw.line([(0, 0), (0, 135)], fill="#FFFFFF", width=2)
     # draw.line([(100, 0), (100, 135)], fill="#FFFFFF", width=2)
