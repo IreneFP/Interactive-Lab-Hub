@@ -75,8 +75,7 @@ color = "#FFFFFF"
 # def white_hair(sec):
 #     return sec ** 1.7
 
-idx = [x for x in range(0, height)]
-print("height", height)
+idx = [x for x in range(0, width)]
 idx = idx
 
 draw_line = [0]
