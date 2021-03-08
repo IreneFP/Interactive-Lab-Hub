@@ -100,7 +100,8 @@ while seconds < 60:
     # draw_line.append(rand)
 
     draw.line([(240, 0), (240, 135)], fill="#FFFFFF", width=2)
-    # draw.line([(100, 0), (100, 135)], fill="#FFFFFF", width=2)
+    draw.line([(239, 0), (239, 135)], fill="#FFFFFF", width=2)
+    draw.line([(100, 0), (100, 135)], fill="#FFFFFF", width=2)
 
     # xy = [x0, y0, x1, y1]
 
