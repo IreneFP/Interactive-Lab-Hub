@@ -67,7 +67,7 @@ backlight = digitalio.DigitalInOut(board.D22)
 backlight.switch_to_output()
 backlight.value = True
 
-seconds = 1
+seconds = 0
 start = 0
 end = 6
 color = "#FFFFFF"
@@ -80,7 +80,7 @@ idx = idx
 
 draw_line = [0]
 
-while seconds < 61:
+while seconds < 60:
     # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
 
@@ -92,7 +92,9 @@ while seconds < 61:
     x_center_text = width/2 - 20/2
     y_center_text = height/2 - 20/2
 
-    if seconds in range(0,20):
+    if seconds in range(0,10):
+        loop = 0
+    elif seconds in range(10,20):
         loop = 1
     elif seconds in range(20,30):
         loop = 2
@@ -111,7 +113,6 @@ while seconds < 61:
         idx.remove(rand)
         draw_line.append(rand)
 
-
     # draw.line([(240, 0), (240, 135)], fill="#FFFFFF", width=2)
     # draw.line([(239, 0), (239, 135)], fill="#FFFFFF", width=2)
     # draw.line([(100, 0), (100, 135)], fill="#FFFFFF", width=2)
@@ -124,7 +125,8 @@ while seconds < 61:
     # years = datetime.now().second
     # white_hair_now = white_hair(seconds)
     # white_hair_now = round(white_hair_now, 2)
-    TIME = strftime("%S")
+    seconds += 1
+    # TIME = strftime("%S")
     draw.text((x_center_text - 5, y_center_text), str(seconds), font=font_big, fill="#000000", stroke_fill="#FFFFFF", stroke_width=2)
     # draw.text((x_center_text - 25, y_center_text + 25), "White Hair", font=font_small, fill="#000000", stroke_fill="#FFFFFF", stroke_width=1)
     
@@ -133,7 +135,6 @@ while seconds < 61:
     
     # Display image.
     disp.image(image, rotation)
-    seconds += 1
     # end += 6
     # if seconds == 59:
     #     seconds = 0
