@@ -174,6 +174,17 @@ After that, git will ask you to login to your github account to upload.
 </p>
 Image Source: https://www.medicalnewstoday.com/articles/320288
 
+
+**Other Ideas:**
+
+- number of white hair
+- number of socks being used in a life time
+- number of people reading the NYT (there are supposed to be more ppl reading the newspaper in the morning that at night) -- is this an old fashion idea?
+- number of friends on LinkedIn
+- data usage during the day
+- number of Twitts per second world wide 
+
+
 ## Prep for Part 2
 
 1. Pick up remaining parts for kit.
@@ -190,11 +201,18 @@ As always, make sure you document contributions and ideas from others explicitly
 
 You are permitted (but not required) to work in groups and share a turn in; you are expected to make equal contribution on any group work you do, and N people's group project should look like N times the work of a single person's lab. What each person did should be explicitly documented. Make sure the page for the group turn in is linked to your Interactive Lab Hub page. 
 
-**Other Ideas:**
+<p float="left">
+  <a href="https://youtu.be/EPxKXfEFq0M">
+    <img src="Part2/20.PNG" width="200" />
+  </a>
+  <a href="https://youtu.be/EPxKXfEFq0M">
+    <img src="Part2/47.JPG" width="200"/>
+  </a>
+   <a href="https://youtu.be/EPxKXfEFq0M">
+    <img src="Part2/53.JPG" width="200"/>
+  </a>
+   <a href="https://youtu.be/EPxKXfEFq0M">
+    <img src="Part2/57.JPG" width="200"/>
+  </a>
+</p>
 
-- number of white hair
-- number of socks being used in a life time
-- number of people reading the NYT (there are supposed to be more ppl reading the newspaper in the morning that at night) -- is this an old fashion idea?
-- number of friends on LinkedIn
-- data usage during the day
-- number of Twitts per second world wide 
