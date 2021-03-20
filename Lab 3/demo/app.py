@@ -29,7 +29,7 @@ audio_stream = Popen("/usr/bin/cvlc alsa://"+hardware+" --sout='#transcode{vcode
 
 @socketio.on('speak')
 def handel_speak(val):
-    call(f"espeak '{val}'", shell=True)
+    call(f"espeak '{val}' | festival --tts", shell=True)
 
 @socketio.on('connect')
 def test_connect():
