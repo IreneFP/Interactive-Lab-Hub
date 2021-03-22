@@ -105,6 +105,32 @@ In the second idea, my Zoom partners agree that there is a much more deep psycho
 
 The system is in itself quite simple! The Raspberry Pi is hidden inside of a box. The box has some holes for the accelerometer, the power supply, and the headphones. The accelerometer is hidden using a paper hand, that the user needs to shake to start the interaction.
 
+The box would start saying: 
+
+- *Hi! I am the box of secrets.*
+
+Then, it would start asking some worm up questions like:
+
+- *What is your name?*
+- *How old are you?*
+- *Where do you live?*
+- *What do you enjoy doing on the weekends?*
+
+Next, it would start asking some personal and uncomfortable questions, testing how far the user was willing to go.
+
+- *How many sexual partners have you had?*
+- *What position is your favorite?*
+- *Who are you attracted to at Cornell Tech?*
+
+Sometimes, if I was detecting the user was telling a lie, the box would respond something like:
+
+- *Do you know I am also a lie detector?*
+
+In the end, I would finish the experiment by saying this sentence:
+
+- *Thank you for answering the questions! This is a small experiment to see how far people feel comfortable sharing personal questions with a box.*
+
+
 ## Test the system
 
 <p float="left">
