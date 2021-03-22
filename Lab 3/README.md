@@ -71,16 +71,31 @@ There is an included [dspeech](.dspeech) demo that uses [Mozilla DeepSpeech](htt
 ## Prototype your system
 
 <p float="left">
-    <img src="setup2.JPG" width="350" />
-    <img src="setup3.JPG" width="350" />
+    <img src="setup2.JPG" width="400" />
+    <img src="setup3.JPG" width="400" />
 </p>
 
+#### How does the system work?
 
-*Document how the system works*
+
+<p float="left">
+    <img src="setup1.JPG" width="400" />
+    <img src="setup3.JPG" width="400" />
+</p>
+
 
 *Include videos or screencaptures of both the system and the controller.*
 
 ## Test the system
+
+<p float="left">
+    <img src="subjec1-shakinghand.PNG" width="400" />
+</p>
+
+<p float="left">
+    <img src="subject2-laugh.gif" width="400" />
+    <img src="subject2-neck.gif" width="400" />
+</p>
 
 
 
