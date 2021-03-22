@@ -57,6 +57,8 @@ There is an included [dspeech](.dspeech) demo that uses [Mozilla DeepSpeech](htt
     <img src="DeepSpeech.jpg" width="1000" />
 </p>
 
+Testing DeepSpeech with Rui over Zoom. She has an American Accent and I don't. This is the result. 
+Mmmmm clearly, the model has been trained using American accents!!! Look how poorly it performed when I (non-native) spoke to it... ! (Should I be worried?) ❓
 
 # Lab 3 Part 2 
 # How much can you trust an Adorable Box? ❓❔
@@ -78,6 +80,7 @@ There is an included [dspeech](.dspeech) demo that uses [Mozilla DeepSpeech](htt
 ## Share your idea sketches with Zoom Room mates and get feedback
 
 *Feedback from Brandt, Rui, Hortense, and Nicole*
+
 The team liked both ideas, they thought both of them were fun interactions as well as had a purpose. 
 For instance, in the first idea, the subject was told if their posture was incorrect and it would be interesting what is their reaction to the feedback. Would they correct the posture and thank the pillow for the reminder, or would they do the opposite, and change pillows to sit however they want without getting yelled at? Is the pillow an annoying parent or a nice partner? 
 
