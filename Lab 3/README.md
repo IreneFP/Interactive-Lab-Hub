@@ -58,11 +58,7 @@ There is an included [dspeech](.dspeech) demo that uses [Mozilla DeepSpeech](htt
 </p>
 
 
-# Lab 3 Part 2
-
-+ Trust
-
-Create a system that runs on the Raspberry Pi that takes in one or more sensors and requires participants to speak to it. Document how the system works and include videos of both the system and the controller.
+# Lab 3 Part 2 - How much can you trust an Adorable box?
 
 ## Prep for Part 2
 
@@ -74,17 +70,19 @@ Create a system that runs on the Raspberry Pi that takes in one or more sensors 
 
 ## Prototype your system
 
-The system should:
-* use the Raspberry Pi 
-* use one or more sensors
-* require participants to speak to it. 
+<p float="left">
+    <img src="setup2.JPG" width="350" />
+    <img src="setup3.JPG" width="350" />
+</p>
+
 
 *Document how the system works*
 
 *Include videos or screencaptures of both the system and the controller.*
 
 ## Test the system
-Try to get at least two people to interact with your system. (Ideally, you would inform them that there is a wizard _after_ the interaction, but we recognize that can be hard.)
+
+
 
 Answer the following:
 
