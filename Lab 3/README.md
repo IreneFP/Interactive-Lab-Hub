@@ -63,13 +63,13 @@ There is an included [dspeech](.dspeech) demo that uses [Mozilla DeepSpeech](htt
 
 ## Prep for Part 2
 
-#### Brainstorming
+#### 1. Brainstorming
 
 <p float="left">
     <img src="sketch1.JPG" width="400" />
 </p>
 
-#### 2 ideas!
+#### 2. Two ideas!
 <p float="left">
     <img src="sketch2.JPG" width="400" />
    <img src="sketch3.JPG" width="400" />
@@ -77,7 +77,12 @@ There is an included [dspeech](.dspeech) demo that uses [Mozilla DeepSpeech](htt
 
 ## Share your idea sketches with Zoom Room mates and get feedback
 
-*what was the feedback? Who did it come from?*
+*Feedback from Brandt, Rui, Hortense, and Nicole*
+The team liked both ideas, they thought both of them were fun interactions as well as had a purpose. 
+For instance, in the first idea, the subject was told if their posture was incorrect and it would be interesting what is their reaction to the feedback. Would they correct the posture and thank the pillow for the reminder, or would they do the opposite, and change pillows to sit however they want without getting yelled at? Is the pillow an annoying parent or a nice partner? 
+
+In the second idea, my Zoom partners agree that there is a much more deep psychological component, which I liked. In this case, we have a box that is supposed to be very nice and "adorable", and we want to know to what extent the user will trust the box telling it their deepest secrets. 
+
 
 ## Prototype your system
 
@@ -94,8 +99,7 @@ There is an included [dspeech](.dspeech) demo that uses [Mozilla DeepSpeech](htt
     <img src="controller.png" width="500" />
 </p>
 
-
-*Include videos or screencaptures of both the system and the controller.*
+The system is in itself quite simple! The Raspberry Pi is hidden inside of a box. The box has some holes for the accelerometer, the power supply, and the headphones. The accelerometer is hidden using a paper hand, that the user needs to shake to start the interaction.
 
 ## Test the system
 
