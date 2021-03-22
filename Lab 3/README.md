@@ -137,28 +137,21 @@ In the end, I would finish the experiment by saying this sentence:
     <img src="subjec1-shakinghand.PNG" width="400" />
 </p>
 
+Subject shaking the "adorable box"'s hand
+
 <p float="left">
     <img src="subject2-laugh.gif" width="400" />
     <img src="subject2-neck.gif" width="400" />
 </p>
 
+In the first gif, the subject is being asked the first uncomfortable question --> *How many sexual partners have you had?*
+In the second gif, the subject has already been asked 3 uncomfortable questions and he scratching his neck. 
 
-
-Answer the following:
 
 ### What worked well about the system and what didn't?
-*your answer here*
 
 ### What worked well about the controller and what didn't?
 
-*your answer here*
-
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
 
-*your answer here*
-
-
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
-
-*your answer here*
-
