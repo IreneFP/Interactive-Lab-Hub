@@ -151,8 +151,19 @@ In the second gif, the subject has already been asked 3 uncomfortable questions 
 
 ### What worked well about the system and what didn't?
 
+The system worked surprisinginly as expected. Users were able to shake the box's hand (accelerometer) to start the interaction. They could speak into the microphone and they could hear whatever I was typing in the back. 
+
+One thing which did not work well and both users pointed out is the voice design. The first user mentioned that he had a hard time trusting the box since the voice was not human at all. "The meaning of the words is enthusiastic, but the tone is not at all". This contrast made the user confused and the box not trustworthy. 
+
+Next, in the second test, when writing "How old are you" the user would hear "How are you?". This is again, probably due to the expressive limitations of the voice used.
+
 ### What worked well about the controller and what didn't?
 
-### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system?
+The controller seems to be working very nicely. The biggest problem was the delays. 
+In the first iteration, I spend quite some time thinking and then typing what I wanted the box to say, which may have made the interaction a bit awkward. In the second iteration, I had some sentences prepared, so I could just copy and paste whatever I wanted to say next. In this case, the delay was significantly reduced but the conversation was not as natural since most of the time I would keep questioning the user instead of answering his follow up questions.
+
+### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system
+
+
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
