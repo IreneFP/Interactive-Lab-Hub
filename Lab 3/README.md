@@ -63,7 +63,17 @@ There is an included [dspeech](.dspeech) demo that uses [Mozilla DeepSpeech](htt
 
 ## Prep for Part 2
 
-1. Sketch ideas for what you'll work on in lab on Wednesday.
+#### Brainstorming
+
+<p float="left">
+    <img src="sketch1.JPG" width="400" />
+</p>
+
+#### 2 ideas!
+<p float="left">
+    <img src="sketch2.JPG" width="400" />
+   <img src="sketch3.JPG" width="400" />
+</p>
 
 ## Share your idea sketches with Zoom Room mates and get feedback
 
