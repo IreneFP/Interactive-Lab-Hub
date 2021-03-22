@@ -81,7 +81,7 @@ There is an included [dspeech](.dspeech) demo that uses [Mozilla DeepSpeech](htt
 
 <p float="left">
     <img src="setup1.JPG" width="400" />
-    <img src="setup3.JPG" width="400" />
+    <img src="controller.png" width="400" />
 </p>
 
 
