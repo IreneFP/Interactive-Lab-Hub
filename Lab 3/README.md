@@ -58,7 +58,8 @@ There is an included [dspeech](.dspeech) demo that uses [Mozilla DeepSpeech](htt
 </p>
 
 
-# Lab 3 Part 2 - How much can you trust an Adorable box?
+# Lab 3 Part 2 
+# How much can you trust an Adorable Box? ❓❔
 
 ## Prep for Part 2
 
