@@ -145,6 +145,7 @@ Subject shaking the "adorable box"'s hand
 </p>
 
 In the first gif, the subject is being asked the first uncomfortable question --> *How many sexual partners have you had?*
+
 In the second gif, the subject has already been asked 3 uncomfortable questions and he scratching his neck. 
 
 
