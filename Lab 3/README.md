@@ -164,8 +164,13 @@ In the first iteration, I spend quite some time thinking and then typing what I 
 
 ### What lessons can you take away from the WoZ interactions for designing a more autonomous version of the system
 
-Since this is more of an experiment than a functional object, I would iterate on three elements that influenciate people's trust on the object:
-- The voice
-- 
+Since this is more of an experiment than a functional object, I would iterate on three elements that influence people's trust in the object (they are written by order of priority):
+- The voice's tone
+- The questions that are being asked and their order
+- The delays
 
 ### How could you use your system to create a dataset of interaction? What other sensing modalities would make sense to capture?
+
+It would be nice to measure the heart rate as well, to see how this one increases when certain questions are being asked. 
+Regarding the dataset, I think this experiment can help collect more qualitative than quantitative measurements. For instance, gathering the reactions I got from the second participant, like an extreme laugh or touching the neck when they are nervous.
+
