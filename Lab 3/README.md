@@ -57,8 +57,9 @@ There is an included [dspeech](.dspeech) demo that uses [Mozilla DeepSpeech](htt
     <img src="DeepSpeech.jpg" width="1000" />
 </p>
 
-Testing DeepSpeech with Rui over Zoom. She has an American Accent and I don't. This is the result. 
-Mmmmm clearly, the model has been trained using American accents!!! Look how poorly it performed when I (non-native) spoke to it... ! (Should I be worried?) ❓
+Testing DeepSpeech with Rui over Zoom. She has an American Accent and I don't. ⬆️ This is the result. 
+
+Mmmmm clearly, **the model has been trained using American accents!!!** Look how poorly it performed when I (non-native) spoke to it... ! (Should I be worried?) ❓
 
 # Lab 3 Part 2 
 # How much can you trust an Adorable Box? ❓❔
