@@ -53,10 +53,14 @@ In the [demo directory](./demo), you will find an example wizard of oz project y
 
 There is an included [dspeech](.dspeech) demo that uses [Mozilla DeepSpeech](https://github.com/mozilla/DeepSpeech) for speech to text. If you're interested in trying it out we suggest you create a seperarate virutalenv. 
 
-
+<p float="left">
+    <img src="DeepSpeech.jpg" width="200" />
+</p>
 
 
 # Lab 3 Part 2
+
+<font color="green"> How much can you trust an adorable box? </font>
 
 Create a system that runs on the Raspberry Pi that takes in one or more sensors and requires participants to speak to it. Document how the system works and include videos of both the system and the controller.
 
