@@ -78,8 +78,8 @@ print("h", height) # h 135
 up = 11
 down = 0
 
-goalx1 = 235
-goaly1 = 10 # random, between 5 and 130
+goalx1 = 230
+goaly1 = 20 # random, between 10 and 125
 
 
 snakex1 = 0
@@ -89,13 +89,13 @@ snakey1 = 60 # random, between 5 and 235
 while True:
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
     
-    goalx2 = goalx1 + 5
-    goaly2 = goaly1 + 5
+    goalx2 = goalx1 + 10
+    goaly2 = goaly1 + 10
 
     snakex2 = snakex1 + 5
     snakey2 = snakey1 + 5
 
-    print("s",snakex1, snakex2)
+    # print("s",snakex1, snakex2)
     draw.rectangle((snakex1, snakey1, snakex2, snakey2), fill="#FFFFFF")
     draw.rectangle((goalx1, goaly1, goalx2, goaly2), fill="#ffcc00")
 
@@ -105,13 +105,13 @@ while True:
                 snakey1 += 5
             if i == down:
                 snakey1 -= 5
-            print(f"{i} touched!")
-            print(snakey1)
+            # print(f"{i} touched!")
+            # print(snakey1)
 
 
     disp.image(image, rotation)
     
     snakex1 += 5
-    print("f", snakex1, snakex2)
+    # print("f", snakex1, snakex2)
 
     time.sleep(0.10)  # Small delay to keep from spamming output messages.
