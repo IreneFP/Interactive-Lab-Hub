@@ -4,7 +4,7 @@ import digitalio
 import board
 from PIL import Image, ImageDraw, ImageFont
 import adafruit_rgb_display.st7789 as st7789
-import adafruit_apds9960.apds9960
+# import adafruit_apds9960.apds9960
 from time import strftime, sleep
 import random
 
@@ -15,13 +15,13 @@ import adafruit_mpr121
 i2c = busio.I2C(board.SCL, board.SDA)
 mpr121 = adafruit_mpr121.MPR121(i2c)
 ############### For gesture sensors
-apds = adafruit_apds9960.apds9960.APDS9960(i2c)
+# apds = adafruit_apds9960.apds9960.APDS9960(i2c)
 
-apds.enable_proximity = True
-apds.proximity_interrupt_threshold = (0, 175)
-apds.enable_proximity_interrupt = True
+# apds.enable_proximity = True
+# apds.proximity_interrupt_threshold = (0, 175)
+# apds.enable_proximity_interrupt = True
 
-apds.enable_gesture = True
+# apds.enable_gesture = True
 
 ############### For screen display
 
@@ -84,7 +84,7 @@ backlight.value = True
 # print("w", width) # w 240
 # print("h", height) # h 135
 
-up = 11
+up = 3
 down = 0
 
 # while True:
@@ -108,7 +108,7 @@ while True:
     snakey1 = random.randint(5, 130) # random, between 5 and 235
 
     fast = 0
-    
+
     while True:
         draw.rectangle((0, 0, width, height), outline=0, fill=0)
         
@@ -128,14 +128,11 @@ while True:
                 if i == down:
                     snakey1 += 5
         
-        gesture = apds.gesture()
-        # prox = apds.proximity()
+        # gesture = apds.gesture()
 
-        
-
-        if gesture == 1 or gesture == 2 or gesture == 3 or gesture == 4:
-            print("go for it!")
-            fast = 10
+        # if gesture == 1 or gesture == 2 or gesture == 3 or gesture == 4:
+        #     print("go for it!")
+        #     fast = 10
         
         snakex1 += (5 + fast)
         
@@ -143,11 +140,11 @@ while True:
         
         time.sleep(0.05)  # Small delay to keep from spamming output messages.
         
-        # print(snakey1)
-        # print("goaly1", goaly1)
-        # print("goaly2", goaly2)
-        
-        if snakex2 == 230 and snakey1 in range(goaly1, goaly2):
+        if snakex2 == 230 and snakey1 in range(goaly1, goaly2): # WIN
+            
+            
             break
-        if snakex2 > 240:
+        if snakex2 > 240: # LOSE
+            
+            
             break
