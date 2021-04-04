@@ -82,7 +82,7 @@ backlight.value = True
 
 up = 11
 down = 0
-
+gesture = apds.gesture()
 
 while True:
 
@@ -111,20 +111,13 @@ while True:
                 if i == down:
                     snakey1 += 5
 
-        while True:
-            gesture = apds.gesture()
-        
-            if gesture == 1:
-                print("up")
-            elif gesture == 2:
-                print("down")
-            elif gesture == 3:
-                print("left")
-            elif gesture == 4:
-                print("right")
+        if gesture == 4:
+            snakex1 += 20
+        else:
+            snakex1 += 5
 
         disp.image(image, rotation)
-        snakex1 += 5
+        
         time.sleep(0.10)  # Small delay to keep from spamming output messages.
         
         # print(snakey1)
