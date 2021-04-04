@@ -84,8 +84,8 @@ backlight.value = True
 # print("w", width) # w 240
 # print("h", height) # h 135
 
-up = 0
-down = 3
+up = 3
+down = 0
 
 # while True:
 #     gesture = apds.gesture()
