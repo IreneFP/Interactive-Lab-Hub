@@ -95,12 +95,13 @@ while True:
     for i in (up, down):
         draw.rectangle((snakex1, snakey1, snakex2, snakey2), fill="#FFFFFF", outline=None)
         draw.rectangle((goalx1, goaly1, goalx2, goaly2), fill="#ffcc00")
-        if mpr121[i].value:
-            if i == up:
-                snakey1 += 5
-            if i == down:
-                snakey1 -= 5
-            print(f"{i} touched!")
+        print(snakey1)
+        # if mpr121[i].value:
+        if i == up:
+            snakey1 += 5
+        if i == down:
+            snakey1 -= 5
+        print(f"{i} touched!")
 
 
     disp.image(image, rotation)
