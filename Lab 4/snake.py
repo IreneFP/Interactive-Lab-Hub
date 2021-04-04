@@ -129,11 +129,12 @@ while True:
         gesture = apds.gesture()
         # prox = apds.proximity()
 
+        fast = 0
+        snakex1 += (5 + fast)
+
         if gesture == 1 or gesture == 2 or gesture == 3 or gesture == 4:
             print("go for it!")
-            snakex1 += 20
-        else:
-            snakex1 += 5
+            fast = 10
         
         disp.image(image, rotation)
         
