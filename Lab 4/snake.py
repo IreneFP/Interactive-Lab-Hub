@@ -16,7 +16,11 @@ i2c = busio.I2C(board.SCL, board.SDA)
 mpr121 = adafruit_mpr121.MPR121(i2c)
 ############### For gesture sensors
 apds = adafruit_apds9960.apds9960.APDS9960(i2c)
+
 apds.enable_proximity = True
+apds.proximity_interrupt_threshold = (0, 175)
+apds.enable_proximity_interrupt = True
+
 apds.enable_gesture = True
 
 ############### For screen display
@@ -110,18 +114,24 @@ while True:
                 if i == down:
                     snakey1 += 5
         
-        gesture = apds.gesture()
+        # gesture = apds.gesture()
         prox = apds.proximity()
 
         # if gesture == 1 or gesture == 2 or gesture == 3 or gesture == 4:
         #     print("go for it!")
         #     snakex1 += 50
-        if prox > 10:
-            print("go for it!")
-            snakex1 += 50
-        else:
-            snakex1 += 5
-
+        
+        if not int_pin.value:
+            print(apds.proximity)
+            apds.clear_interrupt()
+        
+        # if prox > 10:
+        #     print("go for it!")
+        #     snakex1 += 50
+        # else:
+        #     snakex1 += 5
+        
+        snakex1 += 5
         disp.image(image, rotation)
         
         time.sleep(0.10)  # Small delay to keep from spamming output messages.
