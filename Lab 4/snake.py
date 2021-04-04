@@ -111,7 +111,12 @@ while True:
                     snakey1 += 5
         
         gesture = apds.gesture()
-        if gesture == 1 or gesture == 2 or gesture == 3 or gesture == 4:
+        proximity = apds.proximity()
+
+        # if gesture == 1 or gesture == 2 or gesture == 3 or gesture == 4:
+        #     print("go for it!")
+        #     snakex1 += 50
+        if proximity > 10:
             print("go for it!")
             snakex1 += 50
         else:
@@ -127,5 +132,5 @@ while True:
         
         if snakex2 == 230 and snakey1 in range(goaly1, goaly2):
             break
-        if snakex2 == 240:
+        if snakex2 > 240:
             break
