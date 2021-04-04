@@ -71,22 +71,24 @@ backlight = digitalio.DigitalInOut(board.D22)
 backlight.switch_to_output()
 backlight.value = True
 
-print("w", width)
-print("h", height)
+print("w", width) # w 240
+print("h", height) # h 135
 
-i = 0
+p = 0
 up = 11
 down = 0
 
 while True:
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
-    draw.rectangle((i, i, i+5, i+5), fill="#FFFFFF", outline=None)
+    print(p)
+    draw.rectangle((p, p, p+5, p+5), fill="#FFFFFF", outline=None)
 
     for i in (up, down):
         if mpr121[i].value:
-            print(f"Banana {i} touched!")
+            print(f"{i} touched!")
 
     disp.image(image, rotation)
-    i += 5
+    
+    p += 5
 
     time.sleep(0.25)  # Small delay to keep from spamming output messages.
