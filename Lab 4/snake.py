@@ -77,14 +77,16 @@ backlight.value = True
 up = 11
 down = 0
 
-goalx1 = 230
-goaly1 = 20 # random, between 10 and 125
 
-snakex1 = 0
-snakey1 = 60 # random, between 5 and 235
+while True:
+    # restart = False
+    
+    goalx1 = 230
+    goaly1 = 20 # random, between 10 and 125
 
-while False:
-    backlight.value = True
+    snakex1 = 0
+    snakey1 = 60 # random, between 5 and 235
+
     while True:
         draw.rectangle((0, 0, width, height), outline=0, fill=0)
         
@@ -112,6 +114,5 @@ while False:
         time.sleep(0.10)  # Small delay to keep from spamming output messages.
         
         if snakex2 == 230 and snakey1 in range(goaly1, goaly1+10):
-            print(True)
-            backlight.value = False
+            break
         
