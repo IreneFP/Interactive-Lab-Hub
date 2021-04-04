@@ -78,14 +78,26 @@ p = 0
 up = 11
 down = 0
 
+goalx1 = 230
+goalx2 = goalx1 + 10
+goaly1 = 60 # random, between 10 and 125
+goaly2 = goaly1 + 10
+
 while True:
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
-    print(p)
-    draw.rectangle((p, 0, p+5, 0), fill="#FFFFFF", outline=None)
+    
+    snakex1 = p
+    snakex2 = snakex1 + 5
+    snakey1 = 5 # random, between 5 and 235
+    snakey2 = snakey1 + 5
+
 
     for i in (up, down):
+        draw.rectangle((p, 5, p+5, 5), fill="#FFFFFF", outline=None)
+        draw.rectangle((goalx1, goaly1, goalx2, goaly2), fill="#436864")
         if mpr121[i].value:
             print(f"{i} touched!")
+            
 
     disp.image(image, rotation)
     
