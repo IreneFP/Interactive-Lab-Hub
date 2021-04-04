@@ -83,11 +83,9 @@ while True:
 
     goalx1 = 230
     goaly1 = random.randint(10, 125) # random, between 10 and 125
-    print(goaly1)
 
     snakex1 = 0
     snakey1 = random.randint(5, 130) # random, between 5 and 235
-    print(snakey1)
 
     while True:
         draw.rectangle((0, 0, width, height), outline=0, fill=0)
@@ -113,6 +111,11 @@ while True:
         snakex1 += 5
         time.sleep(0.10)  # Small delay to keep from spamming output messages.
         
-        if snakex2 == 230 and snakey1 in range(goaly1, goaly1+10):
+        print(snakey1)
+        print("goaly1", goaly1)
+        print("goaly2", goaly2)
+        
+
+        if snakex2 == 230 and snakey1 in range(goaly1, goaly2):
             break
         
