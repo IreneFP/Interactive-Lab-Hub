@@ -83,9 +83,11 @@ while True:
 
     goalx1 = 230
     goaly1 = random.randint(10, 125) # random, between 10 and 125
+    print(goaly1)
 
     snakex1 = 0
-    snakey1 = random.randint(5, 235) # random, between 5 and 235
+    snakey1 = random.randint(5, 130) # random, between 5 and 235
+    print(snakey1)
 
     while True:
         draw.rectangle((0, 0, width, height), outline=0, fill=0)
