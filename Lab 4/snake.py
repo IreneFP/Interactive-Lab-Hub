@@ -117,8 +117,8 @@ while True:
         goalx2 = goalx1 + 10
         goaly2 = goaly1 + 10
 
-        snakex2 = snakex1 + 20
-        snakey2 = snakey1 + (5 * big)
+        snakex2 = snakex1 + (5 * big)
+        snakey2 = snakey1 + 5
 
         draw.rectangle((snakex1, snakey1, snakex2, snakey2), fill="#FFFFFF")
         draw.rectangle((goalx1, goaly1, goalx2, goaly2), fill="#ffcc00")
