@@ -12,13 +12,6 @@ import adafruit_mpr121
 
 i2c = busio.I2C(board.SCL, board.SDA)
 mpr121 = adafruit_mpr121.MPR121(i2c)
-
-while True:
-    for i in range(12):
-        if mpr121[i].value:
-            print(f"Banana {i} touched!")
-    time.sleep(0.25)  # Small delay to keep from spamming output messages.
-
 ############### -----------------------------------------------------------------
 
 
@@ -82,14 +75,18 @@ print("w", width)
 print("h", height)
 
 i = 0
+up = 11
+down = 0
 
 while True:
-    # Draw a black filled box to clear the image.
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
-
     draw.rectangle((i, i, i+5, i+5), fill="#FFFFFF", outline=None)
-    
-    # Display image.
+
+    for i in (up, down):
+        if mpr121[i].value:
+            print(f"Banana {i} touched!")
+
     disp.image(image, rotation)
     i += 5
-    time.sleep(0.5)
+
+    time.sleep(0.25)  # Small delay to keep from spamming output messages.
