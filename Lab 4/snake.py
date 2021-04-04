@@ -81,7 +81,7 @@ down = 0
 while True:
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
     print(p)
-    draw.rectangle((p, p, p+5, p+5), fill="#FFFFFF", outline=None)
+    draw.rectangle((p, 0, p+5, 0), fill="#FFFFFF", outline=None)
 
     for i in (up, down):
         if mpr121[i].value:
@@ -91,4 +91,4 @@ while True:
     
     p += 5
 
-    time.sleep(0.25)  # Small delay to keep from spamming output messages.
+    time.sleep(0.10)  # Small delay to keep from spamming output messages.
