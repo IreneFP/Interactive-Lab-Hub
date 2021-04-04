@@ -91,8 +91,8 @@ snakey2 = snakey1 + 5
 while True:
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
     
-    print("f",snakex1)
-    draw.rectangle((snakex1, snakey1, snakex2, snakey2), fill="#FFFFFF", outline=None)
+    print("s",snakex1, snakex2)
+    draw.rectangle((snakex1, snakey1, snakex2, snakey2), fill="#FFFFFF")
     draw.rectangle((goalx1, goaly1, goalx2, goaly2), fill="#ffcc00")
 
     for i in (up, down):
@@ -108,6 +108,6 @@ while True:
     disp.image(image, rotation)
     
     snakex1 += 5
-    print("s", snakex1)
+    print("f", snakex1, snakex2)
 
     time.sleep(0.10)  # Small delay to keep from spamming output messages.
