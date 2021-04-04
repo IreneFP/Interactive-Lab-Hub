@@ -74,7 +74,7 @@ backlight.value = True
 print("w", width) # w 240
 print("h", height) # h 135
 
-p = 0
+
 up = 11
 down = 0
 
@@ -83,14 +83,15 @@ goalx2 = goalx1 + 5
 goaly1 = 10 # random, between 5 and 130
 goaly2 = goaly1 + 5
 
-snakex1 = p
+snakex1 = 0
 snakex2 = snakex1 + 5
 snakey1 = 60 # random, between 5 and 235
 snakey2 = snakey1 + 5
 
 while True:
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
-    
+
+
     draw.rectangle((snakex1, snakey1, snakex2, snakey2), fill="#FFFFFF", outline=None)
     draw.rectangle((goalx1, goaly1, goalx2, goaly2), fill="#ffcc00")
 
@@ -106,6 +107,6 @@ while True:
 
     disp.image(image, rotation)
     
-    p += 5
+    snakex1 += 5
 
     time.sleep(0.10)  # Small delay to keep from spamming output messages.
