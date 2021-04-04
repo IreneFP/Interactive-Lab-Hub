@@ -111,12 +111,12 @@ while True:
                     snakey1 += 5
         
         gesture = apds.gesture()
-        proximity = apds.proximity()
+        prox = apds.proximity()
 
         # if gesture == 1 or gesture == 2 or gesture == 3 or gesture == 4:
         #     print("go for it!")
         #     snakex1 += 50
-        if proximity > 10:
+        if prox > 10:
             print("go for it!")
             snakex1 += 50
         else:
