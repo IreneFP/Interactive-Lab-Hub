@@ -88,6 +88,18 @@ up = 11
 down = 0
 
 while True:
+    gesture = apds.gesture()
+ 
+    if gesture == 0x01:
+        print("up")
+    elif gesture == 0x02:
+        print("down")
+    elif gesture == 0x03:
+        print("left")
+    elif gesture == 0x04:
+        print("right")
+
+while True:
 
     goalx1 = 230
     goaly1 = random.randint(10, 125) # random, between 10 and 125
@@ -125,7 +137,7 @@ while True:
         
         disp.image(image, rotation)
         
-        time.sleep(0.10)  # Small delay to keep from spamming output messages.
+        time.sleep(0.05)  # Small delay to keep from spamming output messages.
         
         # print(snakey1)
         # print("goaly1", goaly1)
