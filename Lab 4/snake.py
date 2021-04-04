@@ -80,7 +80,7 @@ down = 0
 
 goalx1 = 235
 goalx2 = goalx1 + 5
-goaly1 = 60 # random, between 5 and 130
+goaly1 = 10 # random, between 5 and 130
 goaly2 = goaly1 + 5
 
 while True:
@@ -88,7 +88,7 @@ while True:
     
     snakex1 = p
     snakex2 = snakex1 + 5
-    snakey1 = 5 # random, between 5 and 235
+    snakey1 = 60 # random, between 5 and 235
     snakey2 = snakey1 + 5
 
 
@@ -96,6 +96,10 @@ while True:
         draw.rectangle((snakex1, snakey1, snakex2, snakey2), fill="#FFFFFF", outline=None)
         draw.rectangle((goalx1, goaly1, goalx2, goaly2), fill="#ffcc00")
         if mpr121[i].value:
+            if i == up:
+                snakey1 += 5
+            if i == down:
+                snakey1 -= 5
             print(f"{i} touched!")
 
 
