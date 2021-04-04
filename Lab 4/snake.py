@@ -84,8 +84,8 @@ backlight.value = True
 # print("w", width) # w 240
 # print("h", height) # h 135
 
-up = 3
-down = 0
+up = 0
+down = 3
 
 # while True:
 #     gesture = apds.gesture()
@@ -98,6 +98,8 @@ down = 0
 #         print("left")
 #     elif gesture == 0x04:
 #         print("right")
+
+big = 1
 
 while True:
 
@@ -116,7 +118,7 @@ while True:
         goaly2 = goaly1 + 10
 
         snakex2 = snakex1 + 20
-        snakey2 = snakey1 + 5
+        snakey2 = snakey1 + (5 * big)
 
         draw.rectangle((snakex1, snakey1, snakex2, snakey2), fill="#FFFFFF")
         draw.rectangle((goalx1, goaly1, goalx2, goaly2), fill="#ffcc00")
@@ -141,10 +143,9 @@ while True:
         time.sleep(0.05)  # Small delay to keep from spamming output messages.
         
         if snakex2 == 230 and snakey1 in range(goaly1, goaly2): # WIN
-            
-            
+            big += 1
             break
+
         if snakex2 > 240: # LOSE
-            
-            
+            big = 1 
             break
