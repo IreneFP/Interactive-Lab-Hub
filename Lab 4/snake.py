@@ -87,17 +87,17 @@ backlight.value = True
 up = 11
 down = 0
 
-while True:
-    gesture = apds.gesture()
+# while True:
+#     gesture = apds.gesture()
  
-    if gesture == 0x01:
-        print("up")
-    elif gesture == 0x02:
-        print("down")
-    elif gesture == 0x03:
-        print("left")
-    elif gesture == 0x04:
-        print("right")
+#     if gesture == 0x01:
+#         print("up")
+#     elif gesture == 0x02:
+#         print("down")
+#     elif gesture == 0x03:
+#         print("left")
+#     elif gesture == 0x04:
+#         print("right")
 
 while True:
 
