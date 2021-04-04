@@ -79,18 +79,21 @@ up = 11
 down = 0
 
 goalx1 = 235
-goalx2 = goalx1 + 5
 goaly1 = 10 # random, between 5 and 130
-goaly2 = goaly1 + 5
+
 
 snakex1 = 0
 snakey1 = 60 # random, between 5 and 235
-snakey2 = snakey1 + 5
+
 
 while True:
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
     
+    goalx2 = goalx1 + 5
+    goaly2 = goaly1 + 5
+
     snakex2 = snakex1 + 5
+    snakey2 = snakey1 + 5
 
     print("s",snakex1, snakex2)
     draw.rectangle((snakex1, snakey1, snakex2, snakey2), fill="#FFFFFF")
