@@ -71,9 +71,8 @@ backlight = digitalio.DigitalInOut(board.D22)
 backlight.switch_to_output()
 backlight.value = True
 
-print("w", width) # w 240
-print("h", height) # h 135
-
+# print("w", width) # w 240
+# print("h", height) # h 135
 
 up = 11
 down = 0
@@ -81,10 +80,8 @@ down = 0
 goalx1 = 230
 goaly1 = 20 # random, between 10 and 125
 
-
 snakex1 = 0
 snakey1 = 60 # random, between 5 and 235
-
 
 while True:
     draw.rectangle((0, 0, width, height), outline=0, fill=0)
@@ -92,7 +89,7 @@ while True:
     goalx2 = goalx1 + 10
     goaly2 = goaly1 + 10
 
-    snakex2 = snakex1 + 5
+    snakex2 = snakex1 + 20
     snakey2 = snakey1 + 5
 
     # print("s",snakex1, snakex2)
@@ -105,8 +102,6 @@ while True:
                 snakey1 += 5
             if i == down:
                 snakey1 -= 5
-            # print(f"{i} touched!")
-            # print(snakey1)
 
 
     disp.image(image, rotation)
