@@ -111,9 +111,9 @@ while True:
                     snakey1 += 5
         
         gesture = apds.gesture()
-        if gesture == 4:
+        if gesture == 1 or gesture == 2 or gesture == 3 or gesture == 4:
             print("go for it!")
-            snakex1 += 20
+            snakex1 += 50
         else:
             snakex1 += 5
 
