@@ -107,6 +107,8 @@ while True:
     snakex1 = 0
     snakey1 = random.randint(5, 130) # random, between 5 and 235
 
+    fast = 0
+    
     while True:
         draw.rectangle((0, 0, width, height), outline=0, fill=0)
         
@@ -129,12 +131,13 @@ while True:
         gesture = apds.gesture()
         # prox = apds.proximity()
 
-        fast = 0
-        snakex1 += (5 + fast)
+        
 
         if gesture == 1 or gesture == 2 or gesture == 3 or gesture == 4:
             print("go for it!")
             fast = 10
+        
+        snakex1 += (5 + fast)
         
         disp.image(image, rotation)
         
