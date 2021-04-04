@@ -82,7 +82,6 @@ backlight.value = True
 
 up = 11
 down = 0
-gesture = apds.gesture()
 
 while True:
 
@@ -110,8 +109,10 @@ while True:
                     snakey1 -= 5
                 if i == down:
                     snakey1 += 5
-
+        
+        gesture = apds.gesture()
         if gesture == 4:
+            print("go for it!")
             snakex1 += 20
         else:
             snakex1 += 5
