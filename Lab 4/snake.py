@@ -5,6 +5,7 @@ import board
 from PIL import Image, ImageDraw, ImageFont
 import adafruit_rgb_display.st7789 as st7789
 from time import strftime, sleep
+import random
 
 ############### For touch sensors
 import busio
@@ -79,13 +80,12 @@ down = 0
 
 
 while True:
-    # restart = False
-    
+
     goalx1 = 230
-    goaly1 = 20 # random, between 10 and 125
+    goaly1 = random.randint(10, 125) # random, between 10 and 125
 
     snakex1 = 0
-    snakey1 = 60 # random, between 5 and 235
+    snakey1 = random.randint(5, 235) # random, between 5 and 235
 
     while True:
         draw.rectangle((0, 0, width, height), outline=0, fill=0)
@@ -96,7 +96,6 @@ while True:
         snakex2 = snakex1 + 20
         snakey2 = snakey1 + 5
 
-        # print("s",snakex1, snakex2)
         draw.rectangle((snakex1, snakey1, snakex2, snakey2), fill="#FFFFFF")
         draw.rectangle((goalx1, goaly1, goalx2, goaly2), fill="#ffcc00")
 
@@ -110,7 +109,6 @@ while True:
 
         disp.image(image, rotation)
         snakex1 += 5
-        # print("f", snakex1, snakex2)
         time.sleep(0.10)  # Small delay to keep from spamming output messages.
         
         if snakex2 == 230 and snakey1 in range(goaly1, goaly1+10):
