@@ -83,30 +83,35 @@ goaly1 = 20 # random, between 10 and 125
 snakex1 = 0
 snakey1 = 60 # random, between 5 and 235
 
-while True:
-    draw.rectangle((0, 0, width, height), outline=0, fill=0)
-    
-    goalx2 = goalx1 + 10
-    goaly2 = goaly1 + 10
+while False:
+    backlight.value = True
+    while True:
+        draw.rectangle((0, 0, width, height), outline=0, fill=0)
+        
+        goalx2 = goalx1 + 10
+        goaly2 = goaly1 + 10
 
-    snakex2 = snakex1 + 20
-    snakey2 = snakey1 + 5
+        snakex2 = snakex1 + 20
+        snakey2 = snakey1 + 5
 
-    # print("s",snakex1, snakex2)
-    draw.rectangle((snakex1, snakey1, snakex2, snakey2), fill="#FFFFFF")
-    draw.rectangle((goalx1, goaly1, goalx2, goaly2), fill="#ffcc00")
+        # print("s",snakex1, snakex2)
+        draw.rectangle((snakex1, snakey1, snakex2, snakey2), fill="#FFFFFF")
+        draw.rectangle((goalx1, goaly1, goalx2, goaly2), fill="#ffcc00")
 
-    for i in (up, down):
-        if mpr121[i].value:
-            if i == up:
-                snakey1 += 5
-            if i == down:
-                snakey1 -= 5
+        for i in (up, down):
+            if mpr121[i].value:
+                if i == up:
+                    snakey1 -= 5
+                if i == down:
+                    snakey1 += 5
 
 
-    disp.image(image, rotation)
-    
-    snakex1 += 5
-    # print("f", snakex1, snakex2)
-
-    time.sleep(0.10)  # Small delay to keep from spamming output messages.
+        disp.image(image, rotation)
+        snakex1 += 5
+        # print("f", snakex1, snakex2)
+        time.sleep(0.10)  # Small delay to keep from spamming output messages.
+        
+        if snakex2 == 230 and snakey1 in range(goaly1, goaly1+10):
+            print(True)
+            backlight.value = False
+        
