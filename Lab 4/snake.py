@@ -13,8 +13,12 @@ import adafruit_mpr121
 
 i2c = busio.I2C(board.SCL, board.SDA)
 mpr121 = adafruit_mpr121.MPR121(i2c)
-############### -----------------------------------------------------------------
+############### For gesture sensors
+apds9960 = adafruit_apds9960.apds9960.APDS9960(i2c)
+apds9960.enable_proximity = True
+apds9960.enable_gesture = True
 
+############### For screen display
 
 # Configuration for CS and DC pins (these are FeatherWing defaults on M0/M4):
 cs_pin = digitalio.DigitalInOut(board.CE0)
@@ -106,16 +110,27 @@ while True:
                 if i == down:
                     snakey1 += 5
 
+        while True:
+            gesture = apds.gesture()
+        
+            if gesture == 1:
+                print("up")
+            elif gesture == 2:
+                print("down")
+            elif gesture == 3:
+                print("left")
+            elif gesture == 4:
+                print("right")
 
         disp.image(image, rotation)
         snakex1 += 5
         time.sleep(0.10)  # Small delay to keep from spamming output messages.
         
-        print(snakey1)
-        print("goaly1", goaly1)
-        print("goaly2", goaly2)
+        # print(snakey1)
+        # print("goaly1", goaly1)
+        # print("goaly2", goaly2)
         
-
         if snakex2 == 230 and snakey1 in range(goaly1, goaly2):
             break
-        
+        if snakex2 == 240:
+            break
