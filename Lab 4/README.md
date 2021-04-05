@@ -115,7 +115,7 @@ The capacitive sensor offers endless possibilities! And think about it combined 
 - Tetris!
 
 
-- Snake! (my final choice). How can I play the snake game using the movement that BMW (the car brand) popularized, creating what has been named as the best advertisement in history. [Te gusta conducir?] (https://images.app.goo.gl/3D1GHZzfAH8m9S3dA)
+- Snake! (my final choice). How can I play the snake game using the movement that BMW (the car brand) popularized, creating what has been named as the best advertisement in history. [Te gusta conducir?](https://images.app.goo.gl/3D1GHZzfAH8m9S3dA)
 
 ![Spot BMW - ¿Te gusta conducir?](https://i.makeagif.com/media/2-20-2018/CyYzhK.gif)
 
