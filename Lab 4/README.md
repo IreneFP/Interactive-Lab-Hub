@@ -9,7 +9,7 @@ Readings:
 * [Cardboard prototypes](https://www.youtube.com/watch?v=k_9Q-KDSb9o)
 * [Tips to Cut, Fold, Mold and Papier-Mache Cardboard](https://makezine.com/2016/04/21/working-with-cardboard-tips-cut-fold-mold-papier-mache/)
 * [Surprisingly complicated forms](https://www.pinterest.com/pin/50032245843343100/)
-* [cardboard mechanisms](https://www.pinterest.com/helgangchin/paper-mechanisms/) 
+* [Cardboard mechanisms](https://www.pinterest.com/helgangchin/paper-mechanisms/) 
 
 ### For lab, you will need:
 
@@ -43,10 +43,10 @@ E) [Costume the device](#part-e-costume-the-device)
 
 F) [Record the interaction](#part-f-record)
 
-# The Report
+# The Report - Part 1
 
-## Part A
-### ✅ Capacitive Sensing, a.k.a. Human Banana Interaction
+## ✅ Part A
+### Capacitive Sensing, a.k.a. Human Banana Interaction
 
 We wanted to introduce you to the [capacitive sensor](https://learn.adafruit.com/adafruit-mpr121-gator) in your kit. It's one of the most flexible input devices we were able to provide. At boot it measures the capacitance on each of the 12 contacts. Whenever that capacitance changes it considers it a user touch. You can attach any conductive material. In your kit you have conductive fabric and copper tape that will work well, but don't limit yourself! In this lab we will use (go?) bananas!
 
@@ -58,28 +58,20 @@ We wanted to introduce you to the [capacitive sensor](https://learn.adafruit.com
 
 Plug in the capacitive sensor board with the qwiic connector. Connect your banana's with either the copper tape or the alligator clips (the clips work better). make sure to install the requirements from `requirements.txt`
 
-![](https://media.discordapp.net/attachments/679721816318803975/823299613812719666/PXL_20210321_205742253.jpg?width=1518&height=1139)
-
-
 ```
 (circuitpython) pi@ixe00:~/Interactive-Lab-Hub/Lab 4 $ python cap_test.py 
 Banana 10 touched!
 Banana 6 touched!
 ```
 
-## Part B
-### ❎ OLED screen
+## ❎ Part B
+### OLED screen
 
 Unfortunately, since the campus closed, I could not get my OLED Screen :(
 
 We just received some of the small oled screens that we had coped to include in your kit. If you want one feel free to pop into the lab and get one. These don't have colors like the one on the pi but you can move it around on a cable making for more flexible interface design. The way you program this display is almost identical to the pi display. Take a look at `oled_test.py` and some more of the [Adafruit examples](https://github.com/adafruit/Adafruit_CircuitPython_SSD1306/tree/master/examples).
 
-<p float="left">
-<img src="https://cdn.sparkfun.com//assets/parts/1/6/1/3/5/17153-SparkFun_Qwiic_OLED_Display__0.91_in__128x32_-01.jpg" height="200" />
-<img src="https://cdn.discordapp.com/attachments/679466987314741338/823354087105101854/PXL_20210322_003033073.jpg" height="200">
-</p>
-
-## Part C
+## ✅ Part C
 
 #### Brainstorming
 
@@ -115,15 +107,18 @@ Some links I used some inspiration from while brainstorming:
 
 - [Raphaël Pluvinage](https://vimeo.com/user3131794) → A big source of inspiration has been this website! I truly recommend you look at it. 
 
+<p float="left">
+<img src="https://cdn.sparkfun.com//assets/parts/1/6/1/3/5/17153-SparkFun_Qwiic_OLED_Display__0.91_in__128x32_-01.jpg" height="200" />
+</p>
 
-- "XOXX Composer" by Axel Bluhme 
+- ["XOXX Composer"](https://www.pinterest.com.mx/pin/804948133376198819/) by Axel Bluhme 
+
+<p float="left">
+<img src="https://cdn.sparkfun.com//assets/parts/1/6/1/3/5/17153-SparkFun_Qwiic_OLED_Display__0.91_in__128x32_-01.jpg" height="200" />
+</p>
 
 
-- NeuralCandy By Al Bencomo
-
-
-
-### ✅ Paper Display
+### Paper Display
 
 **a. Document the design for your paper display.** (e.g. if you had to make it again from scratch, what information would you need?). Include interim iterations (or at least tell us about them).
 
@@ -131,7 +126,7 @@ Some links I used some inspiration from while brainstorming:
 
 **c. Explain the rationale for the design.** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
 
-### Part D
+### ✅ Part D
 ### Materiality
 
 **Open Ended**: We are putting very few constraints on this part but we want you to get creative.
@@ -148,7 +143,7 @@ Design a system with the Pi and anything from your kit with a focus on form, and
 
 **b. explain the selection.**
 
-# Part 2.
+# Part 2
 
 Following exploration and reflection from Part 1, complete the "looks like," "works like" and "acts like" prototypes for your design.
 
