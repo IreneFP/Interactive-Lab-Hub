@@ -84,12 +84,44 @@ We just received some of the small oled screens that we had coped to include in 
 <img src="https://cdn.discordapp.com/attachments/679466987314741338/823354087105101854/PXL_20210322_003033073.jpg" height="200">
 </p>
 
-
 ### Part C
+
+## Brainstorming
+
+The capacitive sensor offers endless possibilities! And think about it combined with other sensors, like my new recently discovered gesture recognition. Before starting my creation process I did a round of brainstorming of interesting things to build, and these are the ideas that popped into my head:
+
+“Learn how to pronounce words / Learn another language!” game for kids. By touching a certain word, the Pi would pronounce it out loud and the kid would need to repeat it. 
+
+“Find the pairs! Touch different elements around and uncover their hidden patterns” game. Some elements around would have a hidden pattern, and these patterns are displayed for 1 second in the Pi screen when touching them. You would need to touch different elements in the space you are around and find the patterns that match. 
+
+“What sound do plants make?” My idea was to attach different plant leaves into a round and conductive surface, in a way that the leaves did have some room to move depending on the wind currents. Then, attach some conductive material behind the leaves so whenever the leaves move with the wind and touch the surface, a sound would be heard!
+
+
+“Camera with heat” I still want to do this one!! How can I use heat-sensitive fabric or heat-sensitive paint and this pin art game to create pictures? Ideally, I would use the Pi camera to translate the light intensity for each pixel to heat. This heat would be applied to the corresponding pins in the pin art surface, and these would transmit the heat to the fabric. 
+
+Simon says - I loved that game!
+
+A Mancala game but with touch.
+
+Tetris!
+
+Snake! (my final choice). How can I play the snake game using the movement that BMW (the car brand) popularized, creating what has been named as the best advertisement in history. Te gusta conducir?
+https://images.app.goo.gl/3D1GHZzfAH8m9S3dA
+
+
+Some links I used some inspiration from while brainstorming:
+
+
+Raphaël Pluvinage  → A big source of inspiration has been this website! I truly recommend you look at it. 
+
+"XOXX Composer" by Axel Bluhme 
+
+NeuralCandy By Al Bencomo
+
+
+
 ### ✅ Paper Display
 
-Make a paper display for your project that communicates the state of the Pi and a sensor. Ideally you should design it so that you can slide the Pi out to work on the circuit or programming, and then slide it back in and reattach a few wires to be back in operation.
- 
 **a. Document the design for your paper display.** (e.g. if you had to make it again from scratch, what information would you need?). Include interim iterations (or at least tell us about them).
 
 **b. Make a video of your paper display in action.**
