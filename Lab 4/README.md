@@ -49,8 +49,9 @@ E) [Costume the device](#part-e-costume-the-device)
 
 F) [Record the interaction](#part-f-record)
 
-## The Report
-### Part A
+# The Report
+
+## Part A
 ### ✅ Capacitive Sensing, a.k.a. Human Banana Interaction
 
 We wanted to introduce you to the [capacitive sensor](https://learn.adafruit.com/adafruit-mpr121-gator) in your kit. It's one of the most flexible input devices we were able to provide. At boot it measures the capacitance on each of the 12 contacts. Whenever that capacitance changes it considers it a user touch. You can attach any conductive material. In your kit you have conductive fabric and copper tape that will work well, but don't limit yourself! In this lab we will use (go?) bananas!
@@ -72,7 +73,7 @@ Banana 10 touched!
 Banana 6 touched!
 ```
 
-### Part B
+## Part B
 ### ❎ OLED screen
 
 Unfortunately, since the campus closed, I could not get my OLED Screen :(
@@ -84,39 +85,47 @@ We just received some of the small oled screens that we had coped to include in 
 <img src="https://cdn.discordapp.com/attachments/679466987314741338/823354087105101854/PXL_20210322_003033073.jpg" height="200">
 </p>
 
-### Part C
+## Part C
 
-## Brainstorming
+#### Brainstorming
 
 The capacitive sensor offers endless possibilities! And think about it combined with other sensors, like my new recently discovered gesture recognition. Before starting my creation process I did a round of brainstorming of interesting things to build, and these are the ideas that popped into my head:
 
-“Learn how to pronounce words / Learn another language!” game for kids. By touching a certain word, the Pi would pronounce it out loud and the kid would need to repeat it. 
-
-“Find the pairs! Touch different elements around and uncover their hidden patterns” game. Some elements around would have a hidden pattern, and these patterns are displayed for 1 second in the Pi screen when touching them. You would need to touch different elements in the space you are around and find the patterns that match. 
-
-“What sound do plants make?” My idea was to attach different plant leaves into a round and conductive surface, in a way that the leaves did have some room to move depending on the wind currents. Then, attach some conductive material behind the leaves so whenever the leaves move with the wind and touch the surface, a sound would be heard!
+- “Learn how to pronounce words / Learn another language!” game for kids. By touching a certain word, the Pi would pronounce it out loud and the kid would need to repeat it. 
 
 
-“Camera with heat” I still want to do this one!! How can I use heat-sensitive fabric or heat-sensitive paint and this pin art game to create pictures? Ideally, I would use the Pi camera to translate the light intensity for each pixel to heat. This heat would be applied to the corresponding pins in the pin art surface, and these would transmit the heat to the fabric. 
+- “Find the pairs! Touch different elements around and uncover their hidden patterns” game. Some elements around would have a hidden pattern, and these patterns are displayed for 1 second in the Pi screen when touching them. You would need to touch different elements in the space you are around and find the patterns that match. 
 
-Simon says - I loved that game!
 
-A Mancala game but with touch.
+- “What sound do plants make?” My idea was to attach different plant leaves into a round and conductive surface, in a way that the leaves did have some room to move depending on the wind currents. Then, attach some conductive material behind the leaves so whenever the leaves move with the wind and touch the surface, a sound would be heard!
 
-Tetris!
 
-Snake! (my final choice). How can I play the snake game using the movement that BMW (the car brand) popularized, creating what has been named as the best advertisement in history. Te gusta conducir?
-https://images.app.goo.gl/3D1GHZzfAH8m9S3dA
+- “Camera with heat” I still want to do this one!! How can I use [heat-sensitive fabric](https://www.alibaba.com/product-detail/High-quality-heat-sensitive-color-changing_1600086710813.html) or [heat-sensitive paint](https://www.amazon.com/thermochromic-paint/s?k=thermochromic+paint) and this [pin art game](https://www.amazon.com/Rhode-Island-Novelty-Point-Impressions/dp/B002MUYTMG/ref=asc_df_B002MUYTMG/?tag=hyprod-20&linkCode=df0&hvadid=309875729163&hvpos=&hvnetw=g&hvrand=1954434514155065801&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9067609&hvtargid=pla-568944846160&psc=1&tag=&ref=&adgrpid=65715448310&hvpone=&hvptwo=&hvadid=309875729163&hvpos=&hvnetw=g&hvrand=1954434514155065801&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9067609&hvtargid=pla-568944846160) to create pictures? Ideally, I would use the Pi camera to translate the light intensity for each pixel to heat. This heat would be applied to the corresponding pins in the pin art surface, and these would transmit the heat to the fabric. 
 
+
+- Simon says - I loved that game!
+
+
+- A Mancala game but with touch.
+
+
+- Tetris!
+
+
+- Snake! (my final choice). How can I play the snake game using the movement that BMW (the car brand) popularized, creating what has been named as the best advertisement in history. [Te gusta conducir?] (https://images.app.goo.gl/3D1GHZzfAH8m9S3dA)
+
+![Spot BMW - ¿Te gusta conducir?](https://i.makeagif.com/media/2-20-2018/CyYzhK.gif)
 
 Some links I used some inspiration from while brainstorming:
 
 
-Raphaël Pluvinage  → A big source of inspiration has been this website! I truly recommend you look at it. 
+- [Raphaël Pluvinage](https://vimeo.com/user3131794) → A big source of inspiration has been this website! I truly recommend you look at it. 
 
-"XOXX Composer" by Axel Bluhme 
 
-NeuralCandy By Al Bencomo
+- "XOXX Composer" by Axel Bluhme 
+
+
+- NeuralCandy By Al Bencomo
 
 
 
@@ -145,7 +154,7 @@ Design a system with the Pi and anything from your kit with a focus on form, and
 
 **b. explain the selection.**
 
-### Part 2.
+# Part 2.
 
 Following exploration and reflection from Part 1, complete the "looks like," "works like" and "acts like" prototypes for your design.
 
