@@ -75,7 +75,24 @@ We just received some of the small oled screens that we had coped to include in 
 
 #### Brainstorming
 
-The capacitive sensor offers endless possibilities! And think about it combined with other sensors, like my new recently discovered gesture recognition. Before starting my creation process I did a round of brainstorming of interesting things to build, and these are the ideas that popped into my head:
+##### Inspirational Links:
+
+The capacitive sensor offers endless possibilities! And think about it combined with other sensors, like my new recently discovered gesture recognition. Before starting my creation process I did a round of research. Here the websites and porjects I like the most:
+
+
+- [Raphaël Pluvinage](https://vimeo.com/user3131794) → A big source of inspiration has been this website! I truly recommend you look at it. 
+
+<p float="left">
+<img src="https://cdn.sparkfun.com//assets/parts/1/6/1/3/5/17153-SparkFun_Qwiic_OLED_Display__0.91_in__128x32_-01.jpg" height="200" />
+</p>
+
+- ["XOXX Composer"](https://www.pinterest.com.mx/pin/804948133376198819/) by Axel Bluhme 
+
+<p float="left">
+<img src="https://cdn.sparkfun.com//assets/parts/1/6/1/3/5/17153-SparkFun_Qwiic_OLED_Display__0.91_in__128x32_-01.jpg" height="200" />
+</p>
+
+##### My ideas:
 
 - “Learn how to pronounce words / Learn another language!” game for kids. By touching a certain word, the Pi would pronounce it out loud and the kid would need to repeat it. 
 
@@ -102,20 +119,6 @@ The capacitive sensor offers endless possibilities! And think about it combined 
 
 ![Spot BMW - ¿Te gusta conducir?](https://i.makeagif.com/media/2-20-2018/CyYzhK.gif)
 
-Some links I used some inspiration from while brainstorming:
-
-
-- [Raphaël Pluvinage](https://vimeo.com/user3131794) → A big source of inspiration has been this website! I truly recommend you look at it. 
-
-<p float="left">
-<img src="https://cdn.sparkfun.com//assets/parts/1/6/1/3/5/17153-SparkFun_Qwiic_OLED_Display__0.91_in__128x32_-01.jpg" height="200" />
-</p>
-
-- ["XOXX Composer"](https://www.pinterest.com.mx/pin/804948133376198819/) by Axel Bluhme 
-
-<p float="left">
-<img src="https://cdn.sparkfun.com//assets/parts/1/6/1/3/5/17153-SparkFun_Qwiic_OLED_Display__0.91_in__128x32_-01.jpg" height="200" />
-</p>
 
 
 ### Paper Display
