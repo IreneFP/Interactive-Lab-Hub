@@ -83,13 +83,13 @@ The capacitive sensor offers endless possibilities! And think about it combined 
 - [Raphaël Pluvinage](https://vimeo.com/user3131794) → A big source of inspiration has been this website! I truly recommend you look at it. 
 
 <p float="left">
-<img src="inspiration/raphael" height="200" />
+<img src="inspiration/raphael.png" height="200" />
 </p>
 
 - ["XOXX Composer"](https://www.pinterest.com.mx/pin/804948133376198819/) by Axel Bluhme 
 
 <p float="left">
-<img src="inspiration/xoxx" height="200" />
+<img src="inspiration/xoxx.png" height="200" />
 </p>
 
 ##### My ideas:
