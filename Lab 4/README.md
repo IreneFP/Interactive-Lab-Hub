@@ -82,13 +82,13 @@ The capacitive sensor offers endless possibilities! And think about it combined 
 - [Raphaël Pluvinage](https://vimeo.com/user3131794) → A big source of inspiration has been this website! I truly recommend you look at it. 
 
 <p float="left">
-<img src="inspiration/raphael.png" weight="200" />
+<img src="inspiration/raphael.png" weight="100" />
 </p>
 
 - ["XOXX Composer"](https://www.pinterest.com.mx/pin/804948133376198819/) by Axel Bluhme 
 
 <p float="left">
-<img src="inspiration/xoxx.png" weight="200" />
+<img src="inspiration/xoxx.png" weight="100" />
 </p>
 
 ##### My ideas:
@@ -173,10 +173,12 @@ These are two ideas that were considered but not the chosen one. As mentioned pr
 # Part 2
 
 **How do I want the interaction experience to feel like:**
+
 I started part 2 with a constant: I want the users when they play the Snake to experience the same feeling as the drivers experience when they put their left hand outside the window.
 
 
 **How should it work:**
+
 Next, I started making some drawings of what I was envisioning. You can see them here:
 
 <p float="left">
