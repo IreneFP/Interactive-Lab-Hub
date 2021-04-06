@@ -130,10 +130,10 @@ The first problem I ran into was that the Pi fell from one side to the other too
 
 
 <p float="left">
-  <img src="inspiration/xoxx.png" weight="200" />
-  <img src="inspiration/xoxx.png" weight="200" />
-  <img src="inspiration/xoxx.png" weight="200" />
-  <img src="inspiration/xoxx.png" weight="200" />
+  <img src="inspiration/xoxx.png" height="200" />
+  <img src="inspiration/xoxx.png" height="200" />
+  <img src="inspiration/xoxx.png" height="200" />
+  <img src="inspiration/xoxx.png" height="200" />
 </p>
 
 **b. Make a video of your paper display in action.**
