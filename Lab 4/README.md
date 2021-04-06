@@ -71,9 +71,8 @@ Unfortunately, since the campus closed, I could not get my OLED Screen :(
 
 We just received some of the small oled screens that we had coped to include in your kit. If you want one feel free to pop into the lab and get one. These don't have colors like the one on the pi but you can move it around on a cable making for more flexible interface design. The way you program this display is almost identical to the pi display. Take a look at `oled_test.py` and some more of the [Adafruit examples](https://github.com/adafruit/Adafruit_CircuitPython_SSD1306/tree/master/examples).
 
-## ✅ Part C
 
-#### Brainstorming
+## ✅ Brainstorming (new section)
 
 ##### Inspirational Links:
 
@@ -83,13 +82,13 @@ The capacitive sensor offers endless possibilities! And think about it combined 
 - [Raphaël Pluvinage](https://vimeo.com/user3131794) → A big source of inspiration has been this website! I truly recommend you look at it. 
 
 <p float="left">
-<img src="inspiration/raphael.png" height="200" />
+<img src="inspiration/raphael.png" weight="200" />
 </p>
 
 - ["XOXX Composer"](https://www.pinterest.com.mx/pin/804948133376198819/) by Axel Bluhme 
 
 <p float="left">
-<img src="inspiration/xoxx.png" height="200" />
+<img src="inspiration/xoxx.png" weight="200" />
 </p>
 
 ##### My ideas:
@@ -120,14 +119,32 @@ The capacitive sensor offers endless possibilities! And think about it combined 
 ![Spot BMW - ¿Te gusta conducir?](https://i.makeagif.com/media/2-20-2018/CyYzhK.gif)
 
 
-
+## ✅ Part C
 ### Paper Display
 
-**a. Document the design for your paper display.** (e.g. if you had to make it again from scratch, what information would you need?). Include interim iterations (or at least tell us about them).
+**a. Document the design for your paper display.** 
+
+I started without much knowledge about the Pi measurements and was just constrained by the length of the paper I had. I randomly decided to divide the paper into 7 and 3 centimeters pieces, so it would be a rectangular box where the Pi could fit, and then, there would be enough room for other sensors.  
+
+The first problem I ran into was that the Pi fell from one side to the other too easily, making it difficult to define the whole where the screen should be. To solve this fast, I put extra pieces of cardboard in both the bottom and the back of the inner box (refer to the images). This was not the best solution but it worked for the first prototype, and more importantly, it informed my second prototype, which I will talk about later.
+
+
+<p float="left">
+  <img src="inspiration/xoxx.png" weight="200" />
+  <img src="inspiration/xoxx.png" weight="200" />
+  <img src="inspiration/xoxx.png" weight="200" />
+  <img src="inspiration/xoxx.png" weight="200" />
+</p>
 
 **b. Make a video of your paper display in action.**
 
-**c. Explain the rationale for the design.** (e.g. Does it need to be a certain size or form or need to be able to be seen from a certain distance?)
+Video
+
+**c. Explain the rationale for the design.**
+
+For this first iteration, I wanted the prototype to be holdable with two hands and playable with the right hand thumb. As you can see in the video, I believe the prototype satisfied the goal. 
+
+Observing the participant play made me think about **other possible ways the user could interact** with the Snake other than just touching a 2D surface up and down to make it move. And this is when I thought about the “Te gusta conducir?” advertisement from BMW. They show how enjoyable it is to ride your car with your hand outside the window, feeling the wind and as if your hand was the one actually controlling the movement. Then, the Snake game is a driving game after all. The Snake is an object trying to reach their goal by moving up and down. 
 
 ### ✅ Part D
 ### Materiality
@@ -136,26 +153,54 @@ The capacitive sensor offers endless possibilities! And think about it combined 
 
 Design a system with the Pi and anything from your kit with a focus on form, and materiality. The "stuff" that enclose the system should be informed by the desired interaction.
 
-**a. document the material prototype.** Include candidates that were considered even if they were set aside later.
+**a. document the material prototype.** 
+
+After having played around the first prototype, these two models you can see in the sketches were considered. All of them address the question, how can the user better interact with the snake or what is the best experience we can create for the user to give the instructions to the Snake on how to achieve the goal: to reach the yellow brick. 
 
 <p float="left">
-<img src="https://cdn.sparkfun.com//assets/parts/1/6/1/3/5/17153-SparkFun_Qwiic_OLED_Display__0.91_in__128x32_-01.jpg" height="200" />
-<img src="https://cdn.discordapp.com/attachments/679466987314741338/823354087105101854/PXL_20210322_003033073.jpg" height="200">
+  <img src="inspiration/xoxx.png" weight="200" />
 </p>
+
+The sketch 1 shows a pulling system with 4 allowed directions. This is cool, but to make this feasible the user should have both hands free. Where would this box be? Would it be hanging on a wall? This could solve the problem. 
+
+The sketch 2 shows a touching system with 8, 6, or 4 allowed directions. Here we still have the same problem. The box needs to be held by a side, or otherwise, it needs to be held by something else. Maybe using pressure sensors instead of touch sensors would solve this problem.  
 
 
 **b. explain the selection.**
 
+These are two ideas that were considered but not the chosen one. As mentioned previously, I really liked the idea of **using the whole arm movement as an indicator of where the Snake should turn towards**, as if your arm was the Snake. We will see later in the videos who this turned out! 
+
 # Part 2
 
-Following exploration and reflection from Part 1, complete the "looks like," "works like" and "acts like" prototypes for your design.
+**How do I want the interaction experience to feel like:**
+I started part 2 with a constant: I want the users when they play the Snake to experience the same feeling as the drivers experience when they put their left hand outside the window.
 
-Reiterating:
-### Deliverables for this lab are: 
-1. Sketches/photos of device designs
-1. "Looks like" prototypes: show us what how the device should look, feel, sit, weigh, etc.
-3. "Works like" prototypes: show us what the device can do
-4. "Acts like" prototypes: videos/storyboards/other means of showing how a person would interact with the device
-5. Submit these in the lab 4 folder of your class [Github page], either as links or uploaded files. Each group member should post their own copy of the work to their own Lab Hub, even if some of the work is the same for each person in the group.
+
+**How should it work:**
+Next, I started making some drawings of what I was envisioning. You can see them here:
+
+<p float="left">
+  <img src="inspiration/xoxx.png" weight="200" />
+  <img src="inspiration/xoxx.png" weight="200" />
+</p>
+
+First, I started looking at how I want the Snake to move, and how many directions do I give the user to play with. As you saw in my first prototype I was thinking about 4 different directions (up, down, left, right). But when we think about the BMW add (again) the simpler the movement the better to be able to focus on enjoying the experience rather than making sure you are doing the most accurate movements as possible.
+
+
+Then, I settled down into two movements, up and down, so the Snake will automatically always move forward and the goal will always be on the opposite end. The Snake starts on the left of the screen in a random y axis point. The goal pixel is always on the right side, positioned in a random y axis point. The user can move their hand up and down to move the Snake in a way that every time their hand touches the upper bound surface the Snake will move up, and the inverse will happen when the lower bound surface is touched. 
+
+
+The Snake starts being very small (5x5 px), but every time the Snake reaches the goal, its length grows and the game restarts again. On the contrary, if the user fails to reach the goal, the game restarts and the Snake’s will be small again.
+ 
+Another interaction I initially added was that once the user has the Snake positioned in the right place, it can make the Snake run faster by bringing their hands forward. At the end, I did not include it in the final video since the sensor was not sensitive enough to work as I had planned it to.
+
+**How should it look like:**
+
+Thinking as if the arm was the Snake, and the arm movement would indicate the Snakes movement, how should our prototype be designed? I started thinking about a rectangular box filled with conductive sensors and with one side off from which you could put your arm in. By touching the inner surfaces you could indicate the movement of the Snake. 
+
+Then, I thought that there is really no need to have more than two touching surfaces. We could make this surface a cylinder instead of a closed box. And this is the ring of my trash can is the closest material I could find that is big enough for the hand to move up and down freely.
+
+**How should it act as?**
+
 
 
