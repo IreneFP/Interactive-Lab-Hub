@@ -231,16 +231,12 @@ Then, I thought that there is really no need to have more than two touching surf
 
 <p float="left">
   <a href="https://youtu.be/58FqU577yEU">
-    <img src="part2/imgv1.JPG" height="200" href="google.com" />
+    <img src="part2/imgv1.JPG" height="400" href="google.com" />
   </a>
   <a href="https://youtu.be/0gEFR_L_dg4">  
-    <img src="part2/imgv2.JPG" height="200" />
+    <img src="part2/imgv2.JPG" height="400" />
   </a>
   <a href="https://youtu.be/OG3JeGbf000">
-    <img src="part2/imgv3.png" height="200" />
+    <img src="part2/imgv3.png" height="400" />
   </a>
 </p>
-
-![<img src="part2/imgv1.JPG">]("https://youtu.be/58FqU577yEU")
-![<img src="part2/imgv1.JPG">]("https://youtu.be/58FqU577yEU")
-![<img src="part2/imgv1.JPG">]("https://youtu.be/58FqU577yEU")
