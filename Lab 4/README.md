@@ -148,7 +148,7 @@ The first problem I ran into was that the Pi fell from one side to the other too
 **b. Make a video of your paper display in action.**
 
 <p float="left">
-  <img src="part1/imgv.png" height="400" href= "https://youtu.be/46x7nXnIvT0"/>
+  <img src="part1/imgv.png" height="1200" href= "https://youtu.be/46x7nXnIvT0"/>
 </p>
 
 **c. Explain the rationale for the design.**
@@ -206,8 +206,8 @@ Then, I settled down into two movements, up and down, so the Snake will automati
 The Snake starts being very small (5x5 px), but every time the Snake reaches the goal, its length grows and the game restarts again. On the contrary, if the user fails to reach the goal, the game restarts and the Snake’s will be small again. You can see the lengths changing in the previous prototype:
 
 <p float="left">
-  <img src="part1/Small-snake.png" height="300" />
-  <img src="part1/Big-snake.png" height="300" />
+  <img src="part1/Small-snake.png" height="250" />
+  <img src="part1/Big-snake.png" height="250" />
 </p>
  
 Another interaction I initially added was that once the user has the Snake positioned in the right place, it can make the Snake run faster by bringing their hands forward. At the end, I did not include it in the final video since the sensor was not sensitive enough to work as I had planned it to.
@@ -227,7 +227,7 @@ Then, I thought that there is really no need to have more than two touching surf
 **How should it act as?**
 
 <p float="left">
-  <img src="part2/imgv1.JPG" height="400" href="google.com" />
-  <img src="part2/imgv2.JPG" height="400" />
-  <img src="part2/imgv3.png" height="400" />
+  <img src="part2/imgv1.JPG" height="200" href="google.com" />
+  <img src="part2/imgv2.JPG" height="200" />
+  <img src="part2/imgv3.png" height="200" />
 </p>
