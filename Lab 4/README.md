@@ -241,4 +241,6 @@ Then, I thought that there is really no need to have more than two touching surf
   </a>
 </p>
 
-
+![<img src="part2/imgv1.JPG">]("https://youtu.be/58FqU577yEU")
+![<img src="part2/imgv1.JPG">]("https://youtu.be/58FqU577yEU")
+![<img src="part2/imgv1.JPG">]("https://youtu.be/58FqU577yEU")
