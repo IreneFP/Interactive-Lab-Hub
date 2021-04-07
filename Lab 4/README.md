@@ -196,8 +196,8 @@ I started part 2 with a constant: I want the users when they play the Snake to e
 Next, I started making some drawings of what I was envisioning. You can see them here:
 
 <p float="left">
-  <img src="part2/sketch1.png" height="500" />
-  <img src="part2/sketch2.png" height="500" />
+  <img src="part2/sketch1.JPG" height="500" />
+  <img src="part2/sketch2.JPG" height="500" />
 </p>
 
 First, I started looking at how I want the Snake to move, and how many directions do I give the user to play with. As you saw in my first prototype I was thinking about 4 different directions (up, down, left, right). But when we think about the BMW add (again) the simpler the movement the better to be able to focus on enjoying the experience rather than making sure you are doing the most accurate movements as possible.
@@ -240,3 +240,5 @@ Then, I thought that there is really no need to have more than two touching surf
     <img src="part2/imgv3.png" height="200" />
   </a>
 </p>
+
+
