@@ -3,8 +3,8 @@
 -------------
 
 <p float="center">
-  <img src="HeadImage.png" height="200" />
-  <img src="tegustaconducir.gif" height="200" />
+  <img src="HeadImage.png" height="400" />
+  <img src="tegustaconducir.gif" height="400" />
 </p>
 
 -------------
