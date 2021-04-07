@@ -148,8 +148,11 @@ The first problem I ran into was that the Pi fell from one side to the other too
 **b. Make a video of your paper display in action.**
 
 <p float="left">
-  <img src="part1/imgv.png" height="1200" href= "https://youtu.be/46x7nXnIvT0"/>
+  <a href="https://youtu.be/46x7nXnIvT0">
+    <img src="part1/imgv.png" height="500"/>
+   </a>
 </p>
+
 
 **c. Explain the rationale for the design.**
 
@@ -227,7 +230,13 @@ Then, I thought that there is really no need to have more than two touching surf
 **How should it act as?**
 
 <p float="left">
-  <img src="part2/imgv1.JPG" height="200" href="google.com" />
-  <img src="part2/imgv2.JPG" height="200" />
-  <img src="part2/imgv3.png" height="200" />
+  <a href="https://youtu.be/58FqU577yEU">
+    <img src="part2/imgv1.JPG" height="200" href="google.com" />
+  </a>
+  <a href="https://youtu.be/0gEFR_L_dg4">  
+    <img src="part2/imgv2.JPG" height="200" />
+  </a>
+  <a href="https://youtu.be/OG3JeGbf000">
+    <img src="part2/imgv3.png" height="200" />
+  </a>
 </p>
