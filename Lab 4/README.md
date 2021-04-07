@@ -4,7 +4,7 @@
 
 <p float="center">
   <img src="HeadImage.png" height="400" />
-  <img src="tegustaconducir.gif" height="400" />
+  <img src="tegustaconducir.gif" height="100" />
 </p>
 
 -------------
