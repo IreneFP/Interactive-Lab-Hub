@@ -139,17 +139,20 @@ The first problem I ran into was that the Pi fell from one side to the other too
 
 
 <p float="left">
-  <img src="part1/prep1.JPG" height="200" />
-  <img src="part1/prep2.JPG" height="200" />
-  <img src="part1/prep3.JPG" height="200" />
-  <img src="part1/prep4.JPG" height="200" />
+  <img src="part1/prep1.JPG" height="300" />
+  <img src="part1/prep2.JPG" height="300" />
+  <img src="part1/prep3.JPG" height="300" />
+  <img src="part1/prep4.JPG" height="300" />
 </p>
 
 **b. Make a video of your paper display in action.**
 
 <p float="left">
-  <img src="part1/imgv.png.JPG" height="200" href= "https://youtu.be/46x7nXnIvT0"/>
+  <a href="https://youtu.be/46x7nXnIvT0">
+    <img src="part1/imgv.png" height="500"/>
+   </a>
 </p>
+
 
 **c. Explain the rationale for the design.**
 
@@ -169,7 +172,7 @@ Design a system with the Pi and anything from your kit with a focus on form, and
 After having played around the first prototype, these two models you can see in the sketches were considered. All of them address the question, how can the user better interact with the snake or what is the best experience we can create for the user to give the instructions to the Snake on how to achieve the goal: to reach the yellow brick. 
 
 <p float="left">
-  <img src="part1/sketch.JPG" height="200" />
+  <img src="part1/sketch.JPG" height="500" />
 </p>
 
 The sketch 1 shows a pulling system with 4 allowed directions. This is cool, but to make this feasible the user should have both hands free. Where would this box be? Would it be hanging on a wall? This could solve the problem. 
@@ -193,8 +196,8 @@ I started part 2 with a constant: I want the users when they play the Snake to e
 Next, I started making some drawings of what I was envisioning. You can see them here:
 
 <p float="left">
-  <img src="part2/sketch1.png" height="200" />
-  <img src="part2/sketch2.png" height="200" />
+  <img src="part2/sketch1.JPG" height="500" />
+  <img src="part2/sketch2.JPG" height="500" />
 </p>
 
 First, I started looking at how I want the Snake to move, and how many directions do I give the user to play with. As you saw in my first prototype I was thinking about 4 different directions (up, down, left, right). But when we think about the BMW add (again) the simpler the movement the better to be able to focus on enjoying the experience rather than making sure you are doing the most accurate movements as possible.
@@ -206,8 +209,8 @@ Then, I settled down into two movements, up and down, so the Snake will automati
 The Snake starts being very small (5x5 px), but every time the Snake reaches the goal, its length grows and the game restarts again. On the contrary, if the user fails to reach the goal, the game restarts and the Snake’s will be small again. You can see the lengths changing in the previous prototype:
 
 <p float="left">
-  <img src="part1/Small-snake.png" height="200" />
-  <img src="part1/Big-snake.png" height="200" />
+  <img src="part1/Small-snake.png" height="250" />
+  <img src="part1/Big-snake.png" height="250" />
 </p>
  
 Another interaction I initially added was that once the user has the Snake positioned in the right place, it can make the Snake run faster by bringing their hands forward. At the end, I did not include it in the final video since the sensor was not sensitive enough to work as I had planned it to.
@@ -219,17 +222,21 @@ Thinking as if the arm was the Snake, and the arm movement would indicate the Sn
 Then, I thought that there is really no need to have more than two touching surfaces. We could make this surface a cylinder instead of a closed box. And this is the ring of my trash can is the closest material I could find that is big enough for the hand to move up and down freely.
 
 <p float="left">
-  <img src="part2/prep1.JPG" height="200" />
-  <img src="part2/prep2.JPG" height="200" />
-  <img src="part2/prep3.JPG" height="200" />
+  <img src="part2/prep1.JPG" height="400" />
+  <img src="part2/prep2.JPG" height="400" />
+  <img src="part2/prep3.JPG" height="400" />
 </p>
 
 **How should it act as?**
 
-Videos TEST
-
 <p float="left">
-  <img src="part2/imgv1.JPG" height="200" href="google.com" />
-  <img src="part2/imgv2.JPG" height="200" />
-  <img src="part2/imgv3.JPG" height="200" />
+  <a href="https://youtu.be/58FqU577yEU">
+    <img src="part2/imgv1.JPG" height="400" href="google.com" />
+  </a>
+  <a href="https://youtu.be/0gEFR_L_dg4">  
+    <img src="part2/imgv2.JPG" height="400" />
+  </a>
+  <a href="https://youtu.be/OG3JeGbf000">
+    <img src="part2/imgv3.png" height="400" />
+  </a>
 </p>
