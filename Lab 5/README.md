@@ -1,28 +1,11 @@
-# Observant Systems
+### Observant Systems
 
+# 1. Measuring Art Engagement
+# 2. Playing to be God 
 
-For lab this week, we focus on creating interactive systems that can detect and respond to events or stimuli in the environment of the Pi, like the Boat Detector we mentioned in lecture. 
-Your **observant device** could, for example, count items, find objects, recognize an event or continuously monitor a room.
-
-This lab will help you think through the design of observant systems, particularly corner cases that the algorithms need to be aware of.
-
-In Lab 5 part 1, we focus on detecting and sense-making.
-
-In Lab 5 part 2, we'll incorporate interactive responses.
-
-
-## Prep
-
-1.  Pull the new Github Repo.
-2.  Read about [OpenCV](https://opencv.org/about/).
-3.  Read Belloti, et al's [Making Sense of Sensing Systems: Five Questions for Designers and Researchers](https://www.cc.gatech.edu/~keith/pubs/chi2002-sensing.pdf)
-
-### For the lab, you will need:
-
-1. Raspberry Pi
-1. Raspberry Pi Camera (2.1)
-1. Microphone (if you want speech or sound input)
-1. Webcam (if you want to be able to locate the camera more flexibly than the Pi Camera)
+## ✅ Prep
+- Read about [OpenCV](https://opencv.org/about/).
+- Read Belloti, et al's [Making Sense of Sensing Systems: Five Questions for Designers and Researchers](https://www.cc.gatech.edu/~keith/pubs/chi2002-sensing.pdf)
 
 ### Deliverables for this lab are:
 1. Show pictures, videos of the "sense-making" algorithms you tried.
@@ -43,11 +26,8 @@ D) [Reflect](#part-d)
 
 ---
 
-### Part A
+### ✅ Part A
 ### Play with different sense-making algorithms.
-
-Befor you get started connect the RaspberryPi Camera V2. [The Pi hut has a great explanation on how to do that](https://thepihut.com/blogs/raspberry-pi-tutorials/16021420-how-to-install-use-the-raspberry-pi-camera).  
-
 #### OpenCV
 A more traditional to extract information out of images is provided with OpenCV. The RPI image provided to you comes with an optimized installation that can be accessed through python.
 
@@ -83,18 +63,6 @@ pi@ixe00:~/openCV-examples $ tree -l
     ├── HowToUse.md
     └── ssd_mobilenet_v2_coco_2018_03_29.pbtxt
 ```
-#### Filtering, FFTs, and Time Series data. (beta, optional)
-Additional filtering and analysis can be done on the sensors that were provided in the kit. For example, running a Fast Fourier Transform over the IMU data stream could create a simple activity classifier between walking, running, and standing.
-
-Using the set up from the [Lab 3 demo](https://github.com/FAR-Lab/Interactive-Lab-Hub/tree/Spring2021/Lab%203/demo) and the accelerometer, try the following:
-
-**1. Set up threshold detection** Can you identify when a signal goes above certain fixed values?
-
-**2. Set up averaging** Can you average your signal in N-sample blocks? N-sample running average?
-
-**3. Set up peak detection** Can you identify when your signal reaches a peak and then goes down?
-
-Include links to your code here, and put the code for these in your repo--they will come in handy later.
 
 #### Teachable Machines (beta, optional)
 Google's [TeachableMachines](https://teachablemachine.withgoogle.com/train) might look very simple.  However, its simplicity is very useful for experimenting with the capabilities of this technology.
@@ -113,6 +81,7 @@ Alternative less steps option is [here](https://github.com/FAR-Lab/TensorflowonT
 #### PyTorch  
 As a note, the global Python install contains also a PyTorch installation. That can be experimented with as well if you are so inclined.
 
+---
 ### Part B
 ### Construct a simple interaction.
 
@@ -120,6 +89,8 @@ Pick one of the models you have tried, pick a class of objects, and experiment w
 This can be as simple as the boat detector earlier.
 Try out different interactions outputs and inputs.
 **Describe and detail the interaction, as well as your experimentation.**
+
+---
 
 ### Part C
 ### Test the interaction prototype
@@ -137,6 +108,7 @@ For example:
 1. How could change your interactive system to address this?
 1. Are there optimizations you can try to do on your sense-making algorithm.
 
+---
 ### Part D
 ### Characterize your own Observant system
 
@@ -152,6 +124,7 @@ During the lecture, we mentioned questions to help characterize a material:
 
 **Include a short video demonstrating the answers to these questions.**
 
+---
 ### Part 2.
 
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
