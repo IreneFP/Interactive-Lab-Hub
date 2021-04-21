@@ -1,27 +1,29 @@
-### Observant Systems
+# Observant Systems
+-------------
 
 Two ideas:
-# 1. Playing to be God 
+### 1. Playing to be God 
 In my personal Instagram I have a channel called Playing to be God. In it, I typically upload videos recorded with my phone, and while my right hand holds the phone, my left hand appears in the video, playing with the screen somehow. I usually make some sounds as sound effects of what is going on. My idea was to use the Pi camera to capture these interactions and make sounds when my hand collapses with a person. Find a sketch attached. 
 After trying several scripts (you can find the last version of it in the 'PlayingToBeGod' folder), I realized that the latency makes my game almost impossible, and if possible it would probably make no sense. So I pivoted towards my next idea: Measuring Art Engagement in galeries. 
 
 <p float="left">
-<img src="ArtEngagement-TeachableMachine/play_sktech.jpg" height="300" />
+    <img src="ArtEngagement-TeachableMachine/engagement_sketch.jpg" height="300" />
 </p>
 
 
-# 2. Measuring Art Engagement
+### 2. Measuring Art Engagement - The winner :)
 
+My second idea is about measuring the connection between art visitors and pieces of art in a museum. Ideally we could use biometrics data to understand what the users are feeling about certain pieces of art and understand the connection or engagement levels between these to actors. In this case, I have simplified the problem by calculating the time each user spends looking at different pieces of art. To do so, I have used a Teachable Machine. Please, find an early sketch of my idea:
+
+
+<p float="left">
+    <img src="ArtEngagement-TeachableMachine/play_sktech.jpg" height="300" />
+</p>
+-------------
 
 ## ✅ Prep
 - Read about [OpenCV](https://opencv.org/about/).
 - Read Belloti, et al's [Making Sense of Sensing Systems: Five Questions for Designers and Researchers](https://www.cc.gatech.edu/~keith/pubs/chi2002-sensing.pdf)
-
-### Deliverables for this lab are:
-1. Show pictures, videos of the "sense-making" algorithms you tried.
-1. Show a video of how you embed one of these algorithms into your observant system.
-1. Test, characterize your interactive device. Show faults in the detection and how the system handled it.
-
 
 ## Overview
 Building upon the paper-airplane metaphor (we're understanding the material of machine learning for design), here are the four sections of the lab activity:
@@ -87,6 +89,12 @@ Here is Adafruit's directions on using Raspberry Pi and the Pi camera with Teach
 4. [Export and run trained models on the Pi](https://learn.adafruit.com/teachable-machine-raspberry-pi-tensorflow-camera/transferring-to-the-pi)
 
 Alternative less steps option is [here](https://github.com/FAR-Lab/TensorflowonThePi).
+
+
+<p float="left">
+    <img src="ArtEngagement-TeachableMachine/play_sktech.jpg" height="300" />
+</p>
+
 
 #### PyTorch  
 As a note, the global Python install contains also a PyTorch installation. That can be experimented with as well if you are so inclined.
