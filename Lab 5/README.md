@@ -6,7 +6,7 @@ In my personal Instagram I have a channel called Playing to be God. In it, I typ
 After trying several scripts (you can find the last version of it in the 'PlayingToBeGod' folder), I realized that the latency makes my game almost impossible, and if possible it would probably make no sense. So I pivoted towards my next idea: Measuring Art Engagement in galeries. 
 
 <p float="left">
-<img src="ArtEngagement-TeachableMachine/play_sketch.jpg" height="300" />
+<img src="ArtEngagement-TeachableMachine/play_sktech.jpg" height="300" />
 </p>
 
 
