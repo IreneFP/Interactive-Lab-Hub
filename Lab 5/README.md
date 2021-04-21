@@ -1,7 +1,17 @@
 ### Observant Systems
 
-# 1. Measuring Art Engagement
-# 2. Playing to be God 
+Two ideas:
+# 1. Playing to be God 
+In my personal Instagram I have a channel called Playing to be God. In it, I typically upload videos recorded with my phone, and while my right hand holds the phone, my left hand appears in the video, playing with the screen somehow. I usually make some sounds as sound effects of what is going on. My idea was to use the Pi camera to capture these interactions and make sounds when my hand collapses with a person. Find a sketch attached. 
+After trying several scripts (you can find the last version of it in the 'PlayingToBeGod' folder), I realized that the latency makes my game almost impossible, and if possible it would probably make no sense. So I pivoted towards my next idea: Measuring Art Engagement in galeries. 
+
+<p float="left">
+<img src="ArtEngagement-TeachableMachine/play_sketch.jpg" height="300" />
+</p>
+
+
+# 2. Measuring Art Engagement
+
 
 ## ✅ Prep
 - Read about [OpenCV](https://opencv.org/about/).
