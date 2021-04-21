@@ -6,6 +6,7 @@ from PIL import Image, ImageOps
 import numpy as np
 import cv2
 import sys
+import time
 
 
 # Disable scientific notation for clarity
@@ -43,6 +44,14 @@ for line in f.readlines():
         continue
     labels.append(line.split(' ')[1].strip())
 
+font = cv2.FONT_HERSHEY_SIMPLEX
+org = (50, 50)
+fontScale = 1
+color =(255, 0, 0)
+thickness = 2
+
+M_time = 0
+P_time = 0
 
 while(True):
     if webCam:
@@ -51,7 +60,7 @@ while(True):
     rows, cols, channels = img.shape
     data = np.ndarray(shape=(1, 224, 224, 3), dtype=np.float32)
 
-    image = Image.open('/home/pi/openCV-examples/data/test.jpg')
+#    image = Image.open('/home/pi/openCV-examples/data/test.jpg')
     size = (224, 224)
     img =  cv2.resize(img, size, interpolation = cv2.INTER_AREA)
     #turn the image into a numpy array
@@ -64,7 +73,25 @@ while(True):
 
     # run the inference
     prediction = model.predict(data)
-    print("I think its a:",labels[np.argmax(prediction)])
+    label_pred = labels[np.argmax(prediction)]
+  
+    
+    if label_pred == "Monet":
+        M_time += 1
+        print("m", M_time)
+    elif label_pred == "Picasso":
+        P_time += 1
+        print("p", P_time)
+        
+    counter1 = "Looked at Monet for {}s".format(int(M_time/5))
+    counter2 = "and Picasso for {}s".format(int(P_time/5))
+    
+    print("I think its looking at:", label_pred)
+    
+    cv2.putText(img, counter1, (10,10), font, 0.5, (0, 255, 0), 1, cv2.LINE_AA)
+    cv2.putText(img, counter2, (10,25), font, 0.5, (0, 255, 0), 1, cv2.LINE_AA) 
+ 
+    cv2.putText(img, label_pred, org, font, fontScale, color, thickness, cv2.LINE_AA) 
 
     if webCam:
         if sys.argv[-1] == "noWindow":

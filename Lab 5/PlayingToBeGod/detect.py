@@ -29,6 +29,11 @@ else:
       img = cv2.imread("../data/test.jpg")
       print("Using default image.")
 
+font = cv2.FONT_HERSHEY_SIMPLEX
+org = (50, 50)
+fontScale = 1
+color =(255, 0, 0)
+thickness = 2
 
 while(True):
     if webCam:
@@ -44,7 +49,11 @@ while(True):
 
     # Loop on the outputs
     for detection in networkOutput[0,0]:
+        print("class", int(detection[1]))
+        
+        label_pred = str(int(detection[1]))
         score = float(detection[2])
+        
         if score > 0.2:
             left = detection[3] * cols
             top = detection[4] * rows
@@ -53,6 +62,7 @@ while(True):
 
             #draw a red rectangle around detected objects
             cv2.rectangle(img, (int(left), int(top)), (int(right), int(bottom)), (0, 0, 255), thickness=2)
+            cv2.putText(img, label_pred, (int(left), int(top)), font, fontScale, color, thickness, cv2.LINE_AA) 
 
     if webCam:
         if sys.argv[-1] == "noWindow":
