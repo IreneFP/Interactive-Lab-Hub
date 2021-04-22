@@ -136,16 +136,9 @@ Unfortunately, there is not a huge impact by miss classifications. The goal is t
 ### Characterize your own Observant system
 
 Now that you have experimented with one or more of these sense-making systems **characterize their behavior**.
-During the lecture, we mentioned questions to help characterize a material:
-* What can you use X for?
-* What is a good environment for X?
-* What is a bad environment for X?
-* When will X break?
-* When it breaks how will X break?
-* What are other properties/behaviors of X?
-* How does X feel?
+We will use the Measuring Art Engagement machine to calculate how much time users look at a piece of art in museums. The goal is to find individual patterns and identify what type of art the user is more engaged to. Ideally, this could be done measuring the eye gaze or even biometrics data, such as heart rate or skin conductivity. A good environment for it is a controllable environment taking into account the limitations of the Pi camera mentioned before. 
 
-
+In this video I show some of the unaccounted options. So far the algorithm can only classify between 3 classes: (1) Looking at Monet, (2) Looking at Picasso, or (3) Looking at nothing. In the cases where the class is none of them, the algorithm still needs to make the most probable guess. See what happens:
 
 **Include a short video demonstrating the answers to these questions.**
 
