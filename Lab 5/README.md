@@ -30,7 +30,7 @@ My second idea is about measuring the connection between art visitors and pieces
 <p float="left">
     <img src="ArtEngagement-TeachableMachine/play_sktech.jpg" height="300" />
 </p>
--------------
+---
 
 ## ✅ Part A
 ### Play with different sense-making algorithms.
