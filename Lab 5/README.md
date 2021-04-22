@@ -30,8 +30,9 @@ My second idea is about measuring the connection between art visitors and pieces
 <p float="left">
     <img src="ArtEngagement-TeachableMachine/play_sktech.jpg" height="300" />
 </p>
----
 
+
+---
 ## ✅ Part A
 ### Play with different sense-making algorithms.
 ##### OpenCV
@@ -97,6 +98,15 @@ Pick one of the models you have tried, pick a class of objects, and experiment w
 This can be as simple as the boat detector earlier.
 Try out different interactions outputs and inputs.
 **Describe and detail the interaction, as well as your experimentation.**
+
+I tried the openCV object detection first. In the default script only a rectangle was painted in the image when a class was detected, but there was no indication of the labels of it. To work my way around it, I printed the index of the prediction. When doing so, I realized that the people and buildings in the skyline are both class 1! I guess buildings may have the shape of people sometimes... 
+
+Then, I wanted to play further with the idea of the NYC skyline, and I used the edge detection to print the skyline from my window!
+
+<p float="left">
+    <img src="object.gif" height="300" />
+    <img src="edgedetection.png" height="300" />
+</p>
 
 ---
 
