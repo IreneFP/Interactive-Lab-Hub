@@ -132,7 +132,7 @@ Unfortunately, there is not a huge impact by miss classifications. The goal is t
 </p>
 
 ---
-### Part D
+## ✅ Part D
 ### Characterize your own Observant system
 
 Now that you have experimented with one or more of these sense-making systems **characterize their behavior**.
@@ -145,21 +145,23 @@ During the lecture, we mentioned questions to help characterize a material:
 * What are other properties/behaviors of X?
 * How does X feel?
 
-<p float="left">
-    <img src="ArtEngagement-TeachableMachine/setup1.JPG" height="300" />
-    <img src="ArtEngagement-TeachableMachine/setup2.JPG" height="300" />
-</p>
+
 
 **Include a short video demonstrating the answers to these questions.**
 
 <p float="left">
-    <img src="ArtEngagement-TeachableMachine/gif.gif" height="300" />
+    <img src="ArtEngagement-TeachableMachine/git.gif" height="300" />
 </p>
 
 ---
-### Part 2.
+## ✅ Part 2.
 
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
+
+<p float="left">
+    <img src="ArtEngagement-TeachableMachine/setup1.JPG" height="300" />
+    <img src="ArtEngagement-TeachableMachine/setup2.JPG" height="300" />
+</p>
 
 <p float="left">
     <img src="ArtEngagement-TeachableMachine/detected_out.jpg" height="300" />
