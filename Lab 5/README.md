@@ -24,7 +24,7 @@ After trying several scripts (you can find the last version of it in the 'Playin
 
 ### 2. Measuring Art Engagement - The winner :)
 
-My second idea is about measuring the connection between art visitors and pieces of art in a museum. Ideally we could use biometrics data to understand what the users are feeling about certain pieces of art and understand the connection or engagement levels between these to actors. In this case, I have simplified the problem by calculating the time each user spends looking at different pieces of art. To do so, I have used a Teachable Machine. Please, find an early sketch of my idea:
+My second idea is about measuring the connection between art visitors and pieces of art in a museum. The goal is to uncover or quantify the time a user spends looking a piece of art, and compare to extract potential patterns. Ideally we could use biometrics data to understand what the users are feeling about certain pieces of art and understand the connection or engagement levels between these to actors. In this case, I have simplified the problem by calculating the time each user spends looking at different pieces of art. To do so, I have used a Teachable Machine. Please, find an early sketch of my idea:
 
 
 <p float="left">
@@ -114,18 +114,7 @@ Idea chosen:
 </p>
 
 Now flight test your interactive prototype and **note your observations**:
-
-<p float="left">
-    <img src="ArtEngagement-TeachableMachine/engagement_sketch.jpg" height="300" />
-</p>
-
-
-For example:
-1. When does it what it is supposed to do?
-1. When does it fail?
-1. When it fails, why does it fail?
-1. Based on the behavior you have seen, what other scenarios could cause problems?
-
+Teachable Machine is quite a powerful tool to do rapid prototyping, but it lacks robustness. For instance, I had made 3 total models since everyday I was working on the project I was wearing a different outfit. This is not ideal, since if I were to use my prototype in the real world I would need to train a new model for each specific situation. For instance, if my model is in an art exhibition counting how much time a user is looking at a piece of art, I may need to train the model with each single one of the customers visiting the expo beforehand: not ideal!
 
 <p float="left">
     <img src="ArtEngagement-TeachableMachine/monet.png" height="300" />
@@ -133,12 +122,9 @@ For example:
     <img src="ArtEngagement-TeachableMachine/picasso.png" height="300" />
 </p>
 
-
 **Think about someone using the system. Describe how you think this will work.**
-1. Are they aware of the uncertainties in the system?
-1. How bad would they be impacted by a miss classification?
-1. How could change your interactive system to address this?
-1. Are there optimizations you can try to do on your sense-making algorithm.
+In a museum (for example) users will know there are cameras as it will be indicated for privacy concerns. However, this interaction pretends to be as seamless as possible so customers can be as genuine as possible when looking at the art. Let's see how much seamlessness I can achieve by the end of this lab!
+Unfortunately, there is not a huge impact by miss classifications. The goal is to uncover or quantify the time a user spends looking at a piece of art, and compare to extract potential patterns. There could be other optimizations to improve the interaction, for instance, train a CNN to improve on robustness or to look at the eye gaze - which is probably the one that would work the best with a higher resolution camera.
 
 <p float="left">
     <img src="ArtEngagement-TeachableMachine/silly.png" height="300" />
@@ -160,8 +146,8 @@ During the lecture, we mentioned questions to help characterize a material:
 * How does X feel?
 
 <p float="left">
-    <img src="ArtEngagement-TeachableMachine/setup1.png" height="300" />
-    <img src="ArtEngagement-TeachableMachine/setup2.png" height="300" />
+    <img src="ArtEngagement-TeachableMachine/setup1.JPG" height="300" />
+    <img src="ArtEngagement-TeachableMachine/setup2.JPG" height="300" />
 </p>
 
 **Include a short video demonstrating the answers to these questions.**
