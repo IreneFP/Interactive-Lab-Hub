@@ -1,5 +1,16 @@
 # Observant Systems
--------------
+
+## Overview
+Building upon the paper-airplane metaphor (we're understanding the material of machine learning for design), here are the four sections of the lab activity:
+
+A) [Play](#part-a)
+
+B) [Fold](#part-b)
+
+C) [Flight test](#part-c)
+
+D) [Reflect](#part-d)
+
 
 Two ideas:
 ### 1. Playing to be God 
@@ -21,26 +32,9 @@ My second idea is about measuring the connection between art visitors and pieces
 </p>
 -------------
 
-## ✅ Prep
-- Read about [OpenCV](https://opencv.org/about/).
-- Read Belloti, et al's [Making Sense of Sensing Systems: Five Questions for Designers and Researchers](https://www.cc.gatech.edu/~keith/pubs/chi2002-sensing.pdf)
-
-## Overview
-Building upon the paper-airplane metaphor (we're understanding the material of machine learning for design), here are the four sections of the lab activity:
-
-A) [Play](#part-a)
-
-B) [Fold](#part-b)
-
-C) [Flight test](#part-c)
-
-D) [Reflect](#part-d)
-
----
-
-### ✅ Part A
+## ✅ Part A
 ### Play with different sense-making algorithms.
-#### OpenCV
+##### OpenCV
 A more traditional to extract information out of images is provided with OpenCV. The RPI image provided to you comes with an optimized installation that can be accessed through python.
 
 Additionally, we also included 4 standard OpenCV examples. These examples include contour(blob) detection, face detection with the ``Haarcascade``, flow detection(a type of keypoint tracking), and standard object detection with the [Yolo](https://pjreddie.com/darknet/yolo/) darknet.
@@ -95,12 +89,8 @@ Alternative less steps option is [here](https://github.com/FAR-Lab/TensorflowonT
     <img src="ArtEngagement-TeachableMachine/play_sktech.jpg" height="300" />
 </p>
 
-
-#### PyTorch  
-As a note, the global Python install contains also a PyTorch installation. That can be experimented with as well if you are so inclined.
-
 ---
-### Part B
+## ✅ Part B
 ### Construct a simple interaction.
 
 Pick one of the models you have tried, pick a class of objects, and experiment with prototyping an interaction.
@@ -110,7 +100,7 @@ Try out different interactions outputs and inputs.
 
 ---
 
-### Part C
+## ✅ Part C
 ### Test the interaction prototype
 
 Now flight test your interactive prototype and **note your observations**:
