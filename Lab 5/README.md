@@ -85,11 +85,6 @@ Here is Adafruit's directions on using Raspberry Pi and the Pi camera with Teach
 
 Alternative less steps option is [here](https://github.com/FAR-Lab/TensorflowonThePi).
 
-
-<p float="left">
-    <img src="ArtEngagement-TeachableMachine/play_sktech.jpg" height="300" />
-</p>
-
 ---
 ## ✅ Part B
 ### Construct a simple interaction.
@@ -113,18 +108,42 @@ Then, I wanted to play further with the idea of the NYC skyline, and I used the 
 ## ✅ Part C
 ### Test the interaction prototype
 
+Idea chosen:
+<p float="left">
+    <img src="ArtEngagement-TeachableMachine/engagement_sketch.jpg" height="300" />
+</p>
+
 Now flight test your interactive prototype and **note your observations**:
+
+<p float="left">
+    <img src="ArtEngagement-TeachableMachine/engagement_sketch.jpg" height="300" />
+</p>
+
+
 For example:
 1. When does it what it is supposed to do?
 1. When does it fail?
 1. When it fails, why does it fail?
 1. Based on the behavior you have seen, what other scenarios could cause problems?
 
+
+<p float="left">
+    <img src="ArtEngagement-TeachableMachine/monet.png" height="300" />
+    <img src="ArtEngagement-TeachableMachine/front.png" height="300" />
+    <img src="ArtEngagement-TeachableMachine/picasso.png" height="300" />
+</p>
+
+
 **Think about someone using the system. Describe how you think this will work.**
 1. Are they aware of the uncertainties in the system?
 1. How bad would they be impacted by a miss classification?
 1. How could change your interactive system to address this?
 1. Are there optimizations you can try to do on your sense-making algorithm.
+
+<p float="left">
+    <img src="ArtEngagement-TeachableMachine/silly.png" height="300" />
+    <img src="ArtEngagement-TeachableMachine/silly2.png" height="300" />
+</p>
 
 ---
 ### Part D
@@ -140,12 +159,30 @@ During the lecture, we mentioned questions to help characterize a material:
 * What are other properties/behaviors of X?
 * How does X feel?
 
+<p float="left">
+    <img src="ArtEngagement-TeachableMachine/setup1.png" height="300" />
+    <img src="ArtEngagement-TeachableMachine/setup2.png" height="300" />
+</p>
+
 **Include a short video demonstrating the answers to these questions.**
+
+<p float="left">
+    <img src="ArtEngagement-TeachableMachine/gif.gif" height="300" />
+</p>
 
 ---
 ### Part 2.
 
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
+<p float="left">
+    <img src="ArtEngagement-TeachableMachine/detected_out.jpg" height="300" />
+</p>
+
 **Include a short video demonstrating the finished result.**
 
+<p float="left">
+    <img src="ArtEngagement-TeachableMachine/video.png" height="300" />
+</p>
+
+https://www.youtube.com/watch?v=nhwSUvh-Vuk
