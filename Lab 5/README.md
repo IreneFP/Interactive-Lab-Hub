@@ -117,9 +117,9 @@ Now flight test your interactive prototype and **note your observations**:
 Teachable Machine is quite a powerful tool to do rapid prototyping, but it lacks robustness. For instance, I had made 3 total models since everyday I was working on the project I was wearing a different outfit. This is not ideal, since if I were to use my prototype in the real world I would need to train a new model for each specific situation. For instance, if my model is in an art exhibition counting how much time a user is looking at a piece of art, I may need to train the model with each single one of the customers visiting the expo beforehand: not ideal!
 
 <p float="left">
-    <img src="ArtEngagement-TeachableMachine/monet.png" height="300" />
-    <img src="ArtEngagement-TeachableMachine/front.png" height="300" />
-    <img src="ArtEngagement-TeachableMachine/picasso.png" height="300" />
+    <img src="ArtEngagement-TeachableMachine/monet.png" height="350" />
+    <img src="ArtEngagement-TeachableMachine/front.png" height="350" />
+    <img src="ArtEngagement-TeachableMachine/picasso.png" height="350" />
 </p>
 
 **Think about someone using the system. Describe how you think this will work.**
@@ -127,8 +127,8 @@ In a museum (for example) users will know there are cameras as it will be indica
 Unfortunately, there is not a huge impact by miss classifications. The goal is to uncover or quantify the time a user spends looking at a piece of art, and compare to extract potential patterns. There could be other optimizations to improve the interaction, for instance, train a CNN to improve on robustness or to look at the eye gaze - which is probably the one that would work the best with a higher resolution camera.
 
 <p float="left">
-    <img src="ArtEngagement-TeachableMachine/silly.png" height="300" />
-    <img src="ArtEngagement-TeachableMachine/silly2.png" height="300" />
+    <img src="ArtEngagement-TeachableMachine/silly.png" height="350" />
+    <img src="ArtEngagement-TeachableMachine/silly2.png" height="350" />
 </p>
 
 ---
@@ -150,7 +150,7 @@ During the lecture, we mentioned questions to help characterize a material:
 **Include a short video demonstrating the answers to these questions.**
 
 <p float="left">
-    <img src="ArtEngagement-TeachableMachine/git.gif" height="300" />
+    <img src="ArtEngagement-TeachableMachine/git.gif" height="350" />
 </p>
 
 ---
