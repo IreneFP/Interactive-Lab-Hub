@@ -24,10 +24,10 @@ def on_message(client, userdata, msg):
     cam_idx = str(msg.topic)[-1]
     print(cam_idx)
     outputs[cam_idx] = msg.payload.decode('UTF-8')
+    print(outputs)
 
     # you can filter by topics
 	# if msg.topic == 'IDD/some/other/topic': do thing
-
 
 # Every client needs a random ID
 client = mqtt.Client(str(uuid.uuid1()))
@@ -44,6 +44,20 @@ client.on_message = on_message
 client.connect(
     'farlab.infosci.cornell.edu',
     port=8883)
+
+## ------------- TO SEND MESSAGES
+
+photo = set(outputs.values())
+if len(photo) == 1:
+    if list(photo)[0] == "ready":
+        message = "take picture"
+
+message = "don't take picture"
+
+while True:
+	cmd = input('>> topic: IDD/Saycheese/TakePic')
+	while True:
+		client.publish(topic, message)
 
 # this is blocking. to see other ways of dealing with the loop
 #  https://www.eclipse.org/paho/index.php?page=clients/python/docs/index.php#network-loop
