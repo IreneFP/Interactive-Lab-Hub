@@ -21,6 +21,7 @@ def on_connect(client, userdata, flags, rc):
 # this is the callback that gets called each time a message is recived
 def on_message(client, userdata, msg):
     print(f"topic: {msg.topic} msg: {msg.payload.decode('UTF-8')}")
+    print(str(msg.topic))
     cam_idx = str(msg.topic)[-1]
     print(cam_idx)
     outputs[cam_idx] = msg.payload.decode('UTF-8')
@@ -47,19 +48,19 @@ client.connect(
 
 ## ------------- TO SEND MESSAGES
 
-photo = set(outputs.values()) 
-if len(photo) == 1: 
-    if list(photo)[0] == "ready":
-        message = "take picture"
+# photo = set(outputs.values()) 
+# if len(photo) == 1: 
+#     if list(photo)[0] == "ready":
+#         message = "take picture"
 
-topic = "IDD/Saycheese/TakePic"
-message = "don't take picture"
+# topic = "IDD/Saycheese/TakePic"
+# message = "don't take picture"
 
-# while True:
+# # while True:
+# #     client.publish(topic, message)
+
+# if message == "take picture":
 #     client.publish(topic, message)
-
-if message == "take picture":
-    client.publish(topic, message)
     
 
 # this is blocking. to see other ways of dealing with the loop
