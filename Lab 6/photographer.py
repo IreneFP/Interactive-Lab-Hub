@@ -52,12 +52,11 @@ if len(photo) == 1:
     if list(photo)[0] == "ready":
         message = "take picture"
 
+topic = "IDD/Saycheese/TakePic"
 message = "don't take picture"
 
 while True:
-	cmd = input('>> topic: IDD/Saycheese/TakePic')
-	while True:
-		client.publish(topic, message)
+    client.publish(topic, message)
 
 # this is blocking. to see other ways of dealing with the loop
 #  https://www.eclipse.org/paho/index.php?page=clients/python/docs/index.php#network-loop
