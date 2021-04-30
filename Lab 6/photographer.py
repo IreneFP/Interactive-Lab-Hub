@@ -48,19 +48,23 @@ client.connect(
 
 ## ------------- TO SEND MESSAGES
 
-# photo = set(outputs.values()) 
-# if len(photo) == 1: 
-#     if list(photo)[0] == "ready":
-#         message = "take picture"
+val = "don't take picture"
 
-# topic = "IDD/Saycheese/TakePic"
-# message = "don't take picture"
+photo = set(outputs.values()) 
+if len(photo) == 1: 
+    if list(photo)[0] == "ready":
+        val = "take picture"
 
-# # while True:
-# #     client.publish(topic, message)
+print(val)
 
-# if message == "take picture":
+topic = "IDD/Saycheese/TakePic"
+
+
+# while True:
 #     client.publish(topic, message)
+
+if val == "take picture":
+    client.publish(topic, val)
     
 
 # this is blocking. to see other ways of dealing with the loop
