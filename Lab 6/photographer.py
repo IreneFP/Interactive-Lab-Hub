@@ -9,7 +9,7 @@ topic = 'IDD/Saycheese/#'
 
 #this is the callback that gets called once we connect to the broker. 
 #we should add our subscribe functions here as well
-outputs = []
+outputs = {}
 
 def on_connect(client, userdata, flags, rc):
 	print(f"connected with result code {rc}")
@@ -21,7 +21,11 @@ def on_connect(client, userdata, flags, rc):
 # this is the callback that gets called each time a message is recived
 def on_message(cleint, userdata, msg):
 	print(f"topic: {msg.topic} msg: {msg.payload.decode('UTF-8')}")
-	print(str(msg.topic))
+	print(str(msg.topic)[-1])
+    cam_idx = str(msg.topic)[-1]
+    print(cam_idx)
+    outputs[cam_idx] = msg.payload.decode('UTF-8')
+
     # you can filter by topics
 	# if msg.topic == 'IDD/some/other/topic': do thing
 
