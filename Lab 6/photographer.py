@@ -19,9 +19,8 @@ def on_connect(client, userdata, flags, rc):
 
 
 # this is the callback that gets called each time a message is recived
-def on_message(cleint, userdata, msg):
-	print(f"topic: {msg.topic} msg: {msg.payload.decode('UTF-8')}")
-	print(str(msg.topic)[-1])
+def on_message(client, userdata, msg):
+    print(f"topic: {msg.topic} msg: {msg.payload.decode('UTF-8')}")
     cam_idx = str(msg.topic)[-1]
     print(cam_idx)
     outputs[cam_idx] = msg.payload.decode('UTF-8')
