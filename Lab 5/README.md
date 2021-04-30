@@ -18,17 +18,17 @@ In my personal Instagram I have a channel called Playing to be God. In it, I typ
 After trying several scripts (you can find the last version of it in the 'PlayingToBeGod' folder), I realized that the latency makes my game almost impossible, and if possible it would probably make no sense. So I pivoted towards my next idea: Measuring Art Engagement in galeries. 
 
 <p float="left">
-    <img src="ArtEngagement-TeachableMachine/engagement_sketch.jpg" height="300" />
+    <img src="ArtEngagement-TeachableMachine/play_sktech.jpg" height="300" />
 </p>
 
 
 ### 2. Measuring Art Engagement - The winner :)
 
-My second idea is about measuring the connection between art visitors and pieces of art in a museum. Ideally we could use biometrics data to understand what the users are feeling about certain pieces of art and understand the connection or engagement levels between these to actors. In this case, I have simplified the problem by calculating the time each user spends looking at different pieces of art. To do so, I have used a Teachable Machine. Please, find an early sketch of my idea:
+My second idea is about measuring the connection between art visitors and pieces of art in a museum. The goal is to uncover or quantify the time a user spends looking a piece of art, and compare to extract potential patterns. Ideally we could use biometrics data to understand what the users are feeling about certain pieces of art and understand the connection or engagement levels between these to actors. In this case, I have simplified the problem by calculating the time each user spends looking at different pieces of art. To do so, I have used a Teachable Machine. Please, find an early sketch of my idea:
 
 
 <p float="left">
-    <img src="ArtEngagement-TeachableMachine/play_sktech.jpg" height="300" />
+    <img src="ArtEngagement-TeachableMachine/engagement_sketch.jpg" height="300" />
 </p>
 
 
@@ -85,11 +85,6 @@ Here is Adafruit's directions on using Raspberry Pi and the Pi camera with Teach
 
 Alternative less steps option is [here](https://github.com/FAR-Lab/TensorflowonThePi).
 
-
-<p float="left">
-    <img src="ArtEngagement-TeachableMachine/play_sktech.jpg" height="300" />
-</p>
-
 ---
 ## ✅ Part B
 ### Construct a simple interaction.
@@ -113,39 +108,62 @@ Then, I wanted to play further with the idea of the NYC skyline, and I used the 
 ## ✅ Part C
 ### Test the interaction prototype
 
+Idea chosen:
+<p float="left">
+    <img src="ArtEngagement-TeachableMachine/engagement_sketch.jpg" height="300" />
+</p>
+
 Now flight test your interactive prototype and **note your observations**:
-For example:
-1. When does it what it is supposed to do?
-1. When does it fail?
-1. When it fails, why does it fail?
-1. Based on the behavior you have seen, what other scenarios could cause problems?
+Teachable Machine is quite a powerful tool to do rapid prototyping, but it lacks robustness. For instance, I had made 3 total models since everyday I was working on the project I was wearing a different outfit. This is not ideal, since if I were to use my prototype in the real world I would need to train a new model for each specific situation. For instance, if my model is in an art exhibition counting how much time a user is looking at a piece of art, I may need to train the model with each single one of the customers visiting the expo beforehand: not ideal!
+
+<p float="left">
+    <img src="ArtEngagement-TeachableMachine/monet.png" height="350" />
+    <img src="ArtEngagement-TeachableMachine/front.png" height="350" />
+    <img src="ArtEngagement-TeachableMachine/picasso.png" height="350" />
+</p>
 
 **Think about someone using the system. Describe how you think this will work.**
-1. Are they aware of the uncertainties in the system?
-1. How bad would they be impacted by a miss classification?
-1. How could change your interactive system to address this?
-1. Are there optimizations you can try to do on your sense-making algorithm.
+In a museum (for example) users will know there are cameras as it will be indicated for privacy concerns. However, this interaction pretends to be as seamless as possible so customers can be as genuine as possible when looking at the art. Let's see how much seamlessness I can achieve by the end of this lab!
+Unfortunately, there is not a huge impact by miss classifications. The goal is to uncover or quantify the time a user spends looking at a piece of art, and compare to extract potential patterns. There could be other optimizations to improve the interaction, for instance, train a CNN to improve on robustness or to look at the eye gaze - which is probably the one that would work the best with a higher resolution camera.
+
+<p float="left">
+    <img src="ArtEngagement-TeachableMachine/silly.png" height="350" />
+    <img src="ArtEngagement-TeachableMachine/silly2.png" height="350" />
+</p>
 
 ---
-### Part D
+## ✅ Part D
 ### Characterize your own Observant system
 
 Now that you have experimented with one or more of these sense-making systems **characterize their behavior**.
-During the lecture, we mentioned questions to help characterize a material:
-* What can you use X for?
-* What is a good environment for X?
-* What is a bad environment for X?
-* When will X break?
-* When it breaks how will X break?
-* What are other properties/behaviors of X?
-* How does X feel?
+We will use the Measuring Art Engagement machine to calculate how much time users look at a piece of art in museums. The goal is to find individual patterns and identify what type of art the user is more engaged to. Ideally, this could be done measuring the eye gaze or even biometrics data, such as heart rate or skin conductivity. A good environment for it is a controllable environment taking into account the limitations of the Pi camera mentioned before. 
+
+In this video I show some of the unaccounted options. So far the algorithm can only classify between 3 classes: (1) Looking at Monet, (2) Looking at Picasso, or (3) Looking at nothing. In the cases where the class is none of them, the algorithm still needs to make the most probable guess. See what happens:
 
 **Include a short video demonstrating the answers to these questions.**
 
+<p float="left">
+    <img src="ArtEngagement-TeachableMachine/git.gif" height="350" />
+</p>
+
 ---
-### Part 2.
+## ✅ Part 2.
 
 Following exploration and reflection from Part 1, finish building your interactive system, and demonstrate it in use with a video.
 
+<p float="left">
+    <img src="ArtEngagement-TeachableMachine/setup1.JPG" height="300" />
+    <img src="ArtEngagement-TeachableMachine/setup2.JPG" height="300" />
+</p>
+
+<p float="left">
+    <img src="ArtEngagement-TeachableMachine/detected_out.jpg" height="300" />
+</p>
+
 **Include a short video demonstrating the finished result.**
 
+<p float="left">
+    <img src="ArtEngagement-TeachableMachine/video.png" height="300" />
+</p>
+
+https://www.youtube.com/watch?v=nhwSUvh-Vuk
