@@ -99,6 +99,7 @@ We imagine this as an art installation where many cameras are set up in public s
 ***Sketch done by Hortense***
 
 
+
 **3. Build a working prototype of the system.**
 
 Our prototype consists of two pieces of code, camera.py and photographer.py.
