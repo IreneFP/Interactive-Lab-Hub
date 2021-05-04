@@ -94,9 +94,9 @@ We imagine this as an art installation where many cameras are set up in public s
 **2. Diagram the architecture of the system.** 
 
 <p float="left">
-    <img src="Saycheese/lab6-sketch.jpeg" height="400" /> (Sketch done by Hortense)
+    <img src="Saycheese/lab6-sketch.jpeg" height="600" /> 
+  (Sketch done by Hortense)
 </p>
-
 
 
 **3. Build a working prototype of the system.**
