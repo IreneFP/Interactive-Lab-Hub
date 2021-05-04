@@ -117,7 +117,7 @@ https://www.youtube.com/watch?v=AUZv7hEOUSM
 
 <p float="left">
   <a href="https://www.youtube.com/watch?v=AUZv7hEOUSM">
-    <img src="part1/imgv.png" height="500"/>
+    <img src="Saycheese/Lab6-video.png" height="500"/>
    </a>
 </p>
 
