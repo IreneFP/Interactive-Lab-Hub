@@ -93,10 +93,9 @@ We imagine this as an art installation where many cameras are set up in public s
 
 **2. Diagram the architecture of the system.** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
 
-(DIAGRAM)
 
 <p float="left">
-    <img src="ArtEngagement-TeachableMachine/engagement_sketch.jpg" height="300" />
+    <img src="Saycheese/lab6-sketch.jpeg" height="300" />
 </p>
 
 
