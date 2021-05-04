@@ -81,16 +81,31 @@ Glitch is a great tool for prototyping sites, interfaces and web-apps that's wor
 
 
 
-## Make it your own
+## ✅ Make it your own
 
-Find at least one class (more are okay) partner, and design a distributed application together. 
+In collaboration with Hortense Gimonet
 
-**1. Explain your design** For example, if you made a remote controlled banana piano, explain why anyone would want such a thing.
+**1. Explain your design**
+
+This is the first iteration of our final project (yay!!). We want to create the coolet and more interactive camera out there – a little bit ambitious, but we have decided to start by creating a long-distance group photo camera. So, imagine multimple cameras in different parts of the world, or even in the same space but each one only capturating an angle, which togetehr capture a 360 degrees picture. To coordinate with multiple cameras we have chosen smiles as the indicator: when everyone in the cameras is simillying, a picture will be taken in each camera at the same time.
+
+We imagine this as an art installation where many cameras are set up in public spaces. One could be set up in the Met, one in Central Park, in Roosevelt Island, Boston, etc. Whenever multiple people are looking at the camera (perhaps wondering what this random box is doing there), the photographer orders each camera to simultaneously take a picture of all the people looking at the camera, and a composite of all the cameras is printed at each location (we were thinking with a thermal receipt printer).
 
 **2. Diagram the architecture of the system.** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
 
+(DIAGRAM)
+
 **3. Build a working prototype of the system.** Do think about the user interface: if someone encountered these bananas, would they know how to interact with them? Should they know what to expect?
+
+Our prototype consists of two pieces of code, camera.py and photographer.py.
+
+camera.py runs a camera node. It accesses the camera, and every 0.1 second, it runs Haar cascades to identidy a face and smiles, and broadcasts whether it is ready or not on its own topic in Saycheese/Cameras. It is also listening to the Saycheese/TakePic topic, and saves the current camera frame if the topic value is 'take picture'.
+
+photographer.py runs the (unique) photographer node. The photographer node listens to all the subtopics in Saycheese/Cameras. If all the topics have the value 'ready', it broadcasts the message 'take picture' to the Saycheese/TakePic topic to tell the cameras to trigger.
 
 **4. Document the working prototype in use.** It may be helpful to record a Zoom session where you should the input in one location clearly causing response in another location.
 
-**5. BONUS (Wendy didn't approve this so you should probably ignore it)** get the whole class to run your code and make your distributed system BIGGER.
+A demo is available here:
+
+https://www.youtube.com/watch?v=AUZv7hEOUSM
+
