@@ -91,15 +91,15 @@ This is the first iteration of our final project (yay!!). We want to create the 
 
 We imagine this as an art installation where many cameras are set up in public spaces. One could be set up in the Met, one in Central Park, in Roosevelt Island, Boston, etc. Whenever multiple people are looking at the camera (perhaps wondering what this random box is doing there), the photographer orders each camera to simultaneously take a picture of all the people looking at the camera, and a composite of all the cameras is printed at each location (we were thinking with a thermal receipt printer).
 
-**2. Diagram the architecture of the system.** Be clear to document where input, output and computation occur, and label all parts and connections. For example, where is the banana, who is the banana player, where does the sound get played, and who is listening to the banana music?
-
+**2. Diagram the architecture of the system.** 
 
 <p float="left">
-    <img src="Saycheese/lab6-sketch.jpeg" height="300" />
+    <img src="Saycheese/lab6-sketch.jpeg" height="400" />
 </p>
+***Sketch done by Hortense***
 
 
-**3. Build a working prototype of the system.** Do think about the user interface: if someone encountered these bananas, would they know how to interact with them? Should they know what to expect?
+**3. Build a working prototype of the system.**
 
 Our prototype consists of two pieces of code, camera.py and photographer.py.
 
