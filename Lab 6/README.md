@@ -96,9 +96,7 @@ We imagine this as an art installation where many cameras are set up in public s
 <p float="left">
     <img src="Saycheese/lab6-sketch.jpeg" height="400" />
 </p>
-***Sketch done by Hortense***
-
-
+(Sketch done by Hortense)
 
 **3. Build a working prototype of the system.**
 
