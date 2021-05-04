@@ -95,6 +95,11 @@ We imagine this as an art installation where many cameras are set up in public s
 
 (DIAGRAM)
 
+<p float="left">
+    <img src="ArtEngagement-TeachableMachine/engagement_sketch.jpg" height="300" />
+</p>
+
+
 **3. Build a working prototype of the system.** Do think about the user interface: if someone encountered these bananas, would they know how to interact with them? Should they know what to expect?
 
 Our prototype consists of two pieces of code, camera.py and photographer.py.
@@ -109,4 +114,10 @@ A demo is available here:
 
 https://www.youtube.com/watch?v=AUZv7hEOUSM
 
+
+<p float="left">
+  <a href="https://www.youtube.com/watch?v=AUZv7hEOUSM">
+    <img src="part1/imgv.png" height="500"/>
+   </a>
+</p>
 
