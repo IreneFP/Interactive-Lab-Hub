@@ -110,9 +110,7 @@ photographer.py runs the (unique) photographer node. The photographer node liste
 
 **4. Document the working prototype in use.**
 
-A demo is available here:
-
-https://www.youtube.com/watch?v=AUZv7hEOUSM
+Click to play! ▶️
 
 
 <p float="left">
